@@ -32,11 +32,20 @@ function doSomething() {
 
 var data = [];
 
-master.forEach(function(d){data.push(d);});
-new_themes.forEach(function(d){data.push(d);});
-new_theme_setup.forEach(function(d){data.push(d);});
+master.forEach(function(d){
+	d.branch = 0;
+	data.push(d);});
+	
+new_themes.forEach(function(d){
+	d.branch = 1;
+	data.push(d);});
+	
+new_theme_setup.forEach(function(d){
+	d.branch = 2;
+	data.push(d);
+	//console.log(d.branch);
+});
 
-//console.log(data);
 
 var width = 900,
     height = 700;
@@ -53,12 +62,13 @@ var nb_nodes = 100, nb_cat = 10;
 
 graph.nodes = data;
 
+
+
 //graph.nodes = d3.range(nb_nodes).map(function() {  
   //return { cat:Math.floor(nb_cat*Math.random()) }; 
 //})
 
 graph.nodes.map(function(d, i) {
-
   graph.nodes.map(function(e, j) {
     if(Math.random()>.99 && i!=j)
       graph.links.push({"source": i, "target": j})

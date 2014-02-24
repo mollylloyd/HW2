@@ -1,23 +1,50 @@
-d3.json("master.json", function(error, masterJson) {
-		if(error) return console.warn(error);
-	var masterData = masterJson;
-	var branch = 0;
-	
-	branchData = function(d,i) {
-		masterData[i].push("0");
-	}
-	
-	console.log(branchData);
-})
+var master,
+	new_themes,  
+	new_theme_setup, 
+	remaining = 3;
 
-
-
-d3.json("daylerees.json", function (error,json){
+d3.json("master.json", function (error,json){
 	if (error) return console.warn(error);
-	data = json;
+	master = json;
+	if (!-- remaining) doSomething();
+	//console.log(master); 
+});
 
 
-console.log(json);
+
+d3.json("new-themes.json", function(error, json){
+	if (error) return console.warn(error);
+	new_themes = json;
+	if (!--remaining) doSomething(); 
+	//console.log(new_themes);
+});
+
+
+
+d3.json("new-theme-setup.json", function(error, json){
+	if (error) return console.warn(error);
+	new_theme_setup = json;
+	if (!--remaining) doSomething();
+	//console.log(new_theme_setup); 
+});
+
+function doSomething() {
+
+var data = [];
+
+master.forEach(function(d){
+	d.branch = 0;
+	data.push(d);});
+	
+new_themes.forEach(function(d){
+	d.branch = 1;
+	data.push(d);});
+	
+new_theme_setup.forEach(function(d){
+	d.branch = 2;
+	data.push(d);
+	//console.log(d.branch);
+});
 
 
 var width = 900,
@@ -33,15 +60,15 @@ var graph = {nodes:[], links:[]};
 
 var nb_nodes = 100, nb_cat = 10;
 
-graph.nodes = d3.range(30).map(function(d) {  
-  return d; 
-})
+graph.nodes = data;
 
 
-console.log(graph.nodes);
+
+//graph.nodes = d3.range(nb_nodes).map(function() {  
+  //return { cat:Math.floor(nb_cat*Math.random()) }; 
+//})
 
 graph.nodes.map(function(d, i) {
-
   graph.nodes.map(function(e, j) {
     if(Math.random()>.99 && i!=j)
       graph.links.push({"source": i, "target": j})
@@ -185,4 +212,4 @@ node.append("circle")
 
 force_layout();
 
-	});
+};
