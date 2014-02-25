@@ -3,7 +3,7 @@ var master,
 	new_theme_setup, 
 	remaining = 3;
 
-d3.json("master.json", function (error,json){
+d3.json("master1.json", function (error,json){
 	if (error) return console.warn(error);
 	master = json;
 	if (!-- remaining) doSomething();
@@ -12,7 +12,7 @@ d3.json("master.json", function (error,json){
 
 
 
-d3.json("new-themes.json", function(error, json){
+d3.json("new-themes1.json", function(error, json){
 	if (error) return console.warn(error);
 	new_themes = json;
 	if (!--remaining) doSomething(); 
@@ -21,7 +21,7 @@ d3.json("new-themes.json", function(error, json){
 
 
 
-d3.json("new-theme-setup.json", function(error, json){
+d3.json("new-theme-setup1.json", function(error, json){
 	if (error) return console.warn(error);
 	new_theme_setup = json;
 	if (!--remaining) doSomething();
@@ -109,42 +109,13 @@ graph.nodes.map(function(d,i){ //regular nodes
 	  if (i!=j){
 	  		for (var k = 0;k<e.parents.length;k++){
 		  if (e.parents[k].sha == d.sha) {
-			  graph.links.push({"source":i,"target": j})
+			  graph.links.push({"source":j,"target": i})
 		  }
 	  }}
 	})})
-console.log(graph.links.length)
+console.log(graph.links)
 
-/*
-		e.parents.map(function(f,k){ //potential 2nd parent nodes
-			if (i!=j){ //if the two nodes are not the same node
-				
-				//console.log(d.parents[0].sha);
-				
-				if (d.sha == e.parents[0].sha) { //if the d node's sha matches the e node's 1st parent
-						graph.links.push({"source":i,"target":j})//push the link's source and target attributes
-					var parentCount = function(){for (i=1;i <= e.parents.length; i++) {return i;}}
-					if (d.sha == f.parents[parentCount].sha && j != k) { 
-						//if there is more than one parent (i.e. if graph.nodes.parents.length > 0)
-						graph.links.push({"source":i, "target":k}) //push those targets
-					} 	
-				}
-			}
-		})
-	})
-	
-})
-*/
 
-/*
-graph.nodes.map(function(d, i) {
-  graph.nodes.map(function(e, j) {
-    if(Math.random()>.99 && i!=j)
-      graph.links.push({"source": i, "target": j})
-
-  })
-})
-*/
 
 // Generate the force layout
 var force = d3.layout.force()
