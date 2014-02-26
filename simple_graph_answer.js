@@ -53,32 +53,36 @@ var width = 900,
 
 var svg = d3.select("body").append("svg")
             .attr("width", width)
-            .attr("height", height);
+            .attr("height", height)
+            .attr("marker-end", "url(#end)");
+            
+svg.append("svg:defs").selectAll("marker")
+    .data(["end"])      // Different link/path types can be defined here
+    .enter().append("svg:marker")    // This section adds in the arrows
+    .attr("id", String)
+    .attr("viewBox", "0 -5 10 10")
+    .attr("refX", 15)
+    .attr("refY", -1.5)
+    .attr("markerWidth", 6)
+    .attr("markerHeight", 6)
+    .attr("orient", "auto")
+  .append("svg:path")
+    .attr("d", "M0,-5L10,0L0,5");
 
 var fill = d3.scale.category10();
 
 var graph = {nodes:[], links:[]};
 
-var nb_nodes = 100, nb_cat = 10;
+
 
 graph.nodes = data;
 
-console.log(graph.nodes[0].parents[0].sha);
-console.log(graph.nodes[7].parents[0].sha);
-console.log(graph.nodes[7].parents[1].sha);
-console.log(graph.nodes[7].parents.length);
+//console.log(graph.nodes[0].parents[0].sha);
+//console.log(graph.nodes[7].parents[0].sha);
+//console.log(graph.nodes[7].parents[1].sha);
+//console.log(graph.nodes[7].parents.length);
 //console.log(data.forEach(function (d) {return d.index;}));
 
-//graph.nodes = d3.range(nb_nodes).map(function() {  
-  //return { cat:Math.floor(nb_cat*Math.random()) }; 
-//})
-
-
-/*
-var parentCount = function(){for (i=1;i <= e.parents.length; i++) 
-								{return i;}}
-
-*/
 
 
 /*
@@ -113,9 +117,31 @@ graph.nodes.map(function(d,i){ //regular nodes
 		  }
 	  }}
 	})})
-console.log(graph.links)
+	
 
 
+
+
+var dates = [];
+
+
+graph.nodes.forEach(function(d,i){
+	dates.push(graph.nodes[i].commit.author.date);
+})
+
+var datesParse = [];
+dates.forEach(function(d){datesParse.push(Date.parse(d))});
+
+console.log(d3.extent(datesParse));
+//datesParse.forEach(function(d){
+//	graph.nodes.push({"date":d})
+//});
+
+console.log(graph.nodes[0]);
+
+//console.log(datesParse);
+
+//console.log(dates);
 
 // Generate the force layout
 var force = d3.layout.force()
@@ -154,8 +180,10 @@ function line_layout() {
 
   force.stop();
 
+  
   graph.nodes.forEach(function(d, i) {
-    d.y = height/2;
+    d.y = 100 + d.branch*20
+    d.x = (i*10);
   })
 
   graph_update(500);
@@ -165,9 +193,16 @@ function line_cat_layout() {
 
   force.stop();
 
-  graph.nodes.forEach(function(d, i) {
-    d.y = height/2 + d.cat*20;
-  })
+  var timeScale = d3.time.scale()
+  						.domain(d3.extent(datesParse))
+  						.range([50,750]);
+  						
+  
+  graph.nodes.forEach(function(d,i){
+    d.y = height/2 + d.branch*100;
+    d.x = timeScale(Date.parse(d.commit.author.date));
+    
+  });
 
   graph_update(500);
 }
@@ -199,7 +234,7 @@ function radial_layout() {
 }
 
 function category_color() {
-  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.cat); });
+  d3.selectAll("circle").transition().duration(500).style("fill", function(d) { return fill(d.branch); });
 }
 
 function category_size() {
@@ -245,8 +280,9 @@ var link = svg.selectAll(".link")
 
 var node = svg.selectAll(".node")
               .data(graph.nodes)
-            .enter()
-              .append("g").attr("class", "node");
+              .enter()
+              .append("g").attr("class", "node")
+              .style("fill", function(d){return fill(d.branch)});
 
 node.append("circle")
     .attr("r", 5)

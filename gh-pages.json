@@ -1,0 +1,1402 @@
+[
+  {
+    "sha": "00d8e916a2ccdf3a99cce9f3ebba0e7cb081025a",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T06:49:24Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T06:49:24Z"
+      },
+      "message": "Updating for 0.7.2",
+      "tree": {
+        "sha": "e4f5159ba3b723e1e7488e2d1508228d5d8650da",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/e4f5159ba3b723e1e7488e2d1508228d5d8650da"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/00d8e916a2ccdf3a99cce9f3ebba0e7cb081025a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/00d8e916a2ccdf3a99cce9f3ebba0e7cb081025a",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/00d8e916a2ccdf3a99cce9f3ebba0e7cb081025a",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/00d8e916a2ccdf3a99cce9f3ebba0e7cb081025a/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/14f85bbec8cb81aa23819ae28b0ba2babc41ba27"
+      }
+    ]
+  },
+  {
+    "sha": "14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T04:45:33Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T04:45:33Z"
+      },
+      "message": "Commenting",
+      "tree": {
+        "sha": "bbf54b2e49e15bb260179c3bf5fd12b6ee7a9852",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/bbf54b2e49e15bb260179c3bf5fd12b6ee7a9852"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/14f85bbec8cb81aa23819ae28b0ba2babc41ba27",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/14f85bbec8cb81aa23819ae28b0ba2babc41ba27/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/30c357f8b62151f1724b1c67ec6151b7f0873bc4"
+      }
+    ]
+  },
+  {
+    "sha": "30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T04:45:19Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-24T04:45:19Z"
+      },
+      "message": "Add config for user profile.",
+      "tree": {
+        "sha": "6b3d721e9c8db81ec729aa9e386674db82a44a92",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/6b3d721e9c8db81ec729aa9e386674db82a44a92"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+      "comment_count": 3
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/30c357f8b62151f1724b1c67ec6151b7f0873bc4",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/30c357f8b62151f1724b1c67ec6151b7f0873bc4/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "be811fa301bf8390fff59bead433486f28e9fa0f",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/be811fa301bf8390fff59bead433486f28e9fa0f",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/be811fa301bf8390fff59bead433486f28e9fa0f"
+      }
+    ]
+  },
+  {
+    "sha": "be811fa301bf8390fff59bead433486f28e9fa0f",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T22:30:33Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T22:30:33Z"
+      },
+      "message": "Gem bumping.",
+      "tree": {
+        "sha": "9a99316467db7e91c7532045f47894a27a09eb25",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/9a99316467db7e91c7532045f47894a27a09eb25"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/be811fa301bf8390fff59bead433486f28e9fa0f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/be811fa301bf8390fff59bead433486f28e9fa0f",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/be811fa301bf8390fff59bead433486f28e9fa0f",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/be811fa301bf8390fff59bead433486f28e9fa0f/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dab8bf9434a879eab759d9832cd93473cb43af29",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/dab8bf9434a879eab759d9832cd93473cb43af29",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/dab8bf9434a879eab759d9832cd93473cb43af29"
+      }
+    ]
+  },
+  {
+    "sha": "dab8bf9434a879eab759d9832cd93473cb43af29",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T22:11:04Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T22:11:04Z"
+      },
+      "message": "Revert change meant to help in multi-user environments.",
+      "tree": {
+        "sha": "9abd41357a9856fd90c415fcca782c00eefd73f9",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/9abd41357a9856fd90c415fcca782c00eefd73f9"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/dab8bf9434a879eab759d9832cd93473cb43af29",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/dab8bf9434a879eab759d9832cd93473cb43af29",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/dab8bf9434a879eab759d9832cd93473cb43af29",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/dab8bf9434a879eab759d9832cd93473cb43af29/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "abf4d8014e065e1a9235aad0def574d143bdf2e9",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/abf4d8014e065e1a9235aad0def574d143bdf2e9",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/abf4d8014e065e1a9235aad0def574d143bdf2e9"
+      }
+    ]
+  },
+  {
+    "sha": "abf4d8014e065e1a9235aad0def574d143bdf2e9",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T20:21:54Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T20:21:54Z"
+      },
+      "message": "Add performance note.",
+      "tree": {
+        "sha": "c967eb8178bfcfa52506ff5bb5200297b80ad651",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/c967eb8178bfcfa52506ff5bb5200297b80ad651"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/abf4d8014e065e1a9235aad0def574d143bdf2e9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/abf4d8014e065e1a9235aad0def574d143bdf2e9",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/abf4d8014e065e1a9235aad0def574d143bdf2e9",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/abf4d8014e065e1a9235aad0def574d143bdf2e9/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb6737a6170afea4d330387369965c921c375ee1",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/cb6737a6170afea4d330387369965c921c375ee1",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/cb6737a6170afea4d330387369965c921c375ee1"
+      }
+    ]
+  },
+  {
+    "sha": "cb6737a6170afea4d330387369965c921c375ee1",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T20:21:44Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T20:21:44Z"
+      },
+      "message": "Flip RbConfig conditional around the correct direction. (Config currently still resolves in 1.9 w/ a warning)",
+      "tree": {
+        "sha": "f919dc7db23033a4489920340b9075bbaf18ac03",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/f919dc7db23033a4489920340b9075bbaf18ac03"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/cb6737a6170afea4d330387369965c921c375ee1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/cb6737a6170afea4d330387369965c921c375ee1",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/cb6737a6170afea4d330387369965c921c375ee1",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/cb6737a6170afea4d330387369965c921c375ee1/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414"
+      }
+    ]
+  },
+  {
+    "sha": "aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:49:23Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:49:23Z"
+      },
+      "message": "Fix typo screwing up path finding.",
+      "tree": {
+        "sha": "bdf45bd82611344d0574d614007808898290c73e",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/bdf45bd82611344d0574d614007808898290c73e"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/aed98fd3d94b0559084779b1fa8c8d0a6d6c9414/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5cd56926f977b19854f17c29029bca4b2a6cdbff",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/5cd56926f977b19854f17c29029bca4b2a6cdbff",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/5cd56926f977b19854f17c29029bca4b2a6cdbff"
+      }
+    ]
+  },
+  {
+    "sha": "5cd56926f977b19854f17c29029bca4b2a6cdbff",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:49:12Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:49:12Z"
+      },
+      "message": "Fix method that wasn't moved from class to instance.",
+      "tree": {
+        "sha": "8882165f4e567d8de36cdc5d96da023097f2985b",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/8882165f4e567d8de36cdc5d96da023097f2985b"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/5cd56926f977b19854f17c29029bca4b2a6cdbff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/5cd56926f977b19854f17c29029bca4b2a6cdbff",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/5cd56926f977b19854f17c29029bca4b2a6cdbff",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/5cd56926f977b19854f17c29029bca4b2a6cdbff/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb115e0dc450bc5fef66d542112eddc26133af9d",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/bb115e0dc450bc5fef66d542112eddc26133af9d",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/bb115e0dc450bc5fef66d542112eddc26133af9d"
+      }
+    ]
+  },
+  {
+    "sha": "bb115e0dc450bc5fef66d542112eddc26133af9d",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:18:23Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:18:23Z"
+      },
+      "message": "Fix path to test_helper for ruby1.9",
+      "tree": {
+        "sha": "20e2fbd6371b7392979504412be9637d3e324974",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/20e2fbd6371b7392979504412be9637d3e324974"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/bb115e0dc450bc5fef66d542112eddc26133af9d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/bb115e0dc450bc5fef66d542112eddc26133af9d",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/bb115e0dc450bc5fef66d542112eddc26133af9d",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/bb115e0dc450bc5fef66d542112eddc26133af9d/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "35a587691df0eed8fd27e96967eaf078fba237c1",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/35a587691df0eed8fd27e96967eaf078fba237c1",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/35a587691df0eed8fd27e96967eaf078fba237c1"
+      }
+    ]
+  },
+  {
+    "sha": "35a587691df0eed8fd27e96967eaf078fba237c1",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:06:58Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:06:58Z"
+      },
+      "message": "Directly shell to libreoffice if available, otherwise fallback to JODConverter.",
+      "tree": {
+        "sha": "67fc5508e85c69284966d255fb44bece9a79121f",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/67fc5508e85c69284966d255fb44bece9a79121f"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/35a587691df0eed8fd27e96967eaf078fba237c1",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/35a587691df0eed8fd27e96967eaf078fba237c1",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/35a587691df0eed8fd27e96967eaf078fba237c1",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/35a587691df0eed8fd27e96967eaf078fba237c1/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "844395f712b4fe0264bcad1386e1360312af6890",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/844395f712b4fe0264bcad1386e1360312af6890",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/844395f712b4fe0264bcad1386e1360312af6890"
+      }
+    ]
+  },
+  {
+    "sha": "844395f712b4fe0264bcad1386e1360312af6890",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:06:08Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:06:23Z"
+      },
+      "message": "Add an office_path and raise OfficeNotFound if an office lib can't be found.",
+      "tree": {
+        "sha": "1585ab2e9297f7f3d289552f22e537486d18bc3c",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/1585ab2e9297f7f3d289552f22e537486d18bc3c"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/844395f712b4fe0264bcad1386e1360312af6890",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/844395f712b4fe0264bcad1386e1360312af6890",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/844395f712b4fe0264bcad1386e1360312af6890",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/844395f712b4fe0264bcad1386e1360312af6890/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a297b1bd44728375803d799b3fa515f40e864c52",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/a297b1bd44728375803d799b3fa515f40e864c52",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/a297b1bd44728375803d799b3fa515f40e864c52"
+      }
+    ]
+  },
+  {
+    "sha": "a297b1bd44728375803d799b3fa515f40e864c52",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:03:10Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:03:10Z"
+      },
+      "message": "Rename PdfExtractor#extract_pdfs to #extract",
+      "tree": {
+        "sha": "2eae90fcb645fd4d6c89a67f8fc1cd1f6e1359b3",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/2eae90fcb645fd4d6c89a67f8fc1cd1f6e1359b3"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/a297b1bd44728375803d799b3fa515f40e864c52",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/a297b1bd44728375803d799b3fa515f40e864c52",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/a297b1bd44728375803d799b3fa515f40e864c52",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/a297b1bd44728375803d799b3fa515f40e864c52/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/a568a9a529c1e4e77a66ec1a8576b8e0ec840172"
+      }
+    ]
+  },
+  {
+    "sha": "a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:01:59Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T18:01:59Z"
+      },
+      "message": "Move methods from class methods to instance methods.",
+      "tree": {
+        "sha": "3425224361d5fa91a4195a692a9189090496f316",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/3425224361d5fa91a4195a692a9189090496f316"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/a568a9a529c1e4e77a66ec1a8576b8e0ec840172",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/a568a9a529c1e4e77a66ec1a8576b8e0ec840172/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30"
+      }
+    ]
+  },
+  {
+    "sha": "6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T04:53:17Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-23T04:53:17Z"
+      },
+      "message": "Add a PdfExtractor class to replace JODConverter.",
+      "tree": {
+        "sha": "23bcca81af0717dc1e6455626ee5068de661c155",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/23bcca81af0717dc1e6455626ee5068de661c155"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/6a6f9a2ea6f09aa5ba2e772c5e5c3b456494af30/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d50b1be8122595b824b3283e10355f44afbd5f02",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/d50b1be8122595b824b3283e10355f44afbd5f02",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/d50b1be8122595b824b3283e10355f44afbd5f02"
+      }
+    ]
+  },
+  {
+    "sha": "d50b1be8122595b824b3283e10355f44afbd5f02",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-22T15:49:35Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-22T15:49:35Z"
+      },
+      "message": "Preparing for 0.7.0",
+      "tree": {
+        "sha": "feabb14f81eb8ef7430a6de4522b94b4daec381d",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/feabb14f81eb8ef7430a6de4522b94b4daec381d"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/d50b1be8122595b824b3283e10355f44afbd5f02",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/d50b1be8122595b824b3283e10355f44afbd5f02",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/d50b1be8122595b824b3283e10355f44afbd5f02",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/d50b1be8122595b824b3283e10355f44afbd5f02/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0bd3092a2d1f05405598daa5382b59ce5b708297",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0bd3092a2d1f05405598daa5382b59ce5b708297",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/0bd3092a2d1f05405598daa5382b59ce5b708297"
+      }
+    ]
+  },
+  {
+    "sha": "0bd3092a2d1f05405598daa5382b59ce5b708297",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T14:01:32Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T14:01:32Z"
+      },
+      "message": "Adding Docsplit.extract_info to close out #46",
+      "tree": {
+        "sha": "d4c88efb60afce1c36af66b26ba272e2828a2933",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/d4c88efb60afce1c36af66b26ba272e2828a2933"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/0bd3092a2d1f05405598daa5382b59ce5b708297",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0bd3092a2d1f05405598daa5382b59ce5b708297",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/0bd3092a2d1f05405598daa5382b59ce5b708297",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/0bd3092a2d1f05405598daa5382b59ce5b708297/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/0ab92ab4835120412f67a2f96a4a0a7c608e78fc"
+      }
+    ]
+  },
+  {
+    "sha": "0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T02:32:10Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T02:35:52Z"
+      },
+      "message": "Fixing normalize_value.",
+      "tree": {
+        "sha": "7352d42155684beb7247ae2c7e1c2f032cfa26dd",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/7352d42155684beb7247ae2c7e1c2f032cfa26dd"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/0ab92ab4835120412f67a2f96a4a0a7c608e78fc",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/0ab92ab4835120412f67a2f96a4a0a7c608e78fc/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f132337e97d955aa97f671d4c6c16534aee9b81",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/2f132337e97d955aa97f671d4c6c16534aee9b81",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/2f132337e97d955aa97f671d4c6c16534aee9b81"
+      }
+    ]
+  },
+  {
+    "sha": "2f132337e97d955aa97f671d4c6c16534aee9b81",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T02:22:02Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T02:22:02Z"
+      },
+      "message": "ensure_pdfs now uses a new tmpdir each time it's called.",
+      "tree": {
+        "sha": "5e7e55c52a1d42295867595c18d1b76b0e3ae3db",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/5e7e55c52a1d42295867595c18d1b76b0e3ae3db"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/2f132337e97d955aa97f671d4c6c16534aee9b81",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/2f132337e97d955aa97f671d4c6c16534aee9b81",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/2f132337e97d955aa97f671d4c6c16534aee9b81",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/2f132337e97d955aa97f671d4c6c16534aee9b81/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34"
+      }
+    ]
+  },
+  {
+    "sha": "80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+    "commit": {
+      "author": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T01:34:18Z"
+      },
+      "committer": {
+        "name": "Ted Han",
+        "email": "ted@knowtheory.net",
+        "date": "2013-02-21T01:34:18Z"
+      },
+      "message": "Fix ruby1.8 compatibility in info extractor.",
+      "tree": {
+        "sha": "ae768bf48ad828ec3c2c716c725dc85231be8251",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/ae768bf48ad828ec3c2c716c725dc85231be8251"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/80f4dc0775fe707ded4b5a14a8f84385f7cd3e34/comments",
+    "author": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "knowtheory",
+      "id": 192,
+      "avatar_url": "https://gravatar.com/avatar/1ed56a3c8445bfafc7a545d9a63175ce?d=https%3A%2F%2Fidenticons.github.com%2F58a2fc6ed39fd083f55d4182bf88826d.png&r=x",
+      "gravatar_id": "1ed56a3c8445bfafc7a545d9a63175ce",
+      "url": "https://api.github.com/users/knowtheory",
+      "html_url": "https://github.com/knowtheory",
+      "followers_url": "https://api.github.com/users/knowtheory/followers",
+      "following_url": "https://api.github.com/users/knowtheory/following{/other_user}",
+      "gists_url": "https://api.github.com/users/knowtheory/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/knowtheory/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/knowtheory/subscriptions",
+      "organizations_url": "https://api.github.com/users/knowtheory/orgs",
+      "repos_url": "https://api.github.com/users/knowtheory/repos",
+      "events_url": "https://api.github.com/users/knowtheory/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/knowtheory/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "92c1e18084cdbd2ecd08d0da0fd4df2e18efff0d",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/92c1e18084cdbd2ecd08d0da0fd4df2e18efff0d",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/92c1e18084cdbd2ecd08d0da0fd4df2e18efff0d"
+      }
+    ]
+  }
+]

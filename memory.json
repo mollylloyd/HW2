@@ -1,0 +1,1402 @@
+[
+  {
+    "sha": "62794ed265fe0fba52977c3b19762edf4eb3b559",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-20T18:31:52Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-20T18:31:52Z"
+      },
+      "message": "correct error in naming and renumbering 10-page chunks of images.",
+      "tree": {
+        "sha": "95be4a44540ccfd1a9efc8162a3f8e88badd1ba1",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/95be4a44540ccfd1a9efc8162a3f8e88badd1ba1"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/62794ed265fe0fba52977c3b19762edf4eb3b559",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/62794ed265fe0fba52977c3b19762edf4eb3b559",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/62794ed265fe0fba52977c3b19762edf4eb3b559",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/62794ed265fe0fba52977c3b19762edf4eb3b559/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "22aaed75be489493cb7e201f8997d94e496f3747",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/22aaed75be489493cb7e201f8997d94e496f3747",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/22aaed75be489493cb7e201f8997d94e496f3747"
+      }
+    ]
+  },
+  {
+    "sha": "22aaed75be489493cb7e201f8997d94e496f3747",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-20T17:17:00Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-20T17:17:00Z"
+      },
+      "message": "Attempting some GraphicsMagick / GhostScript memory and disk usage optimizations.",
+      "tree": {
+        "sha": "6cebcd9e5b9fd0708ff64421153340a25ae1c912",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/6cebcd9e5b9fd0708ff64421153340a25ae1c912"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/22aaed75be489493cb7e201f8997d94e496f3747",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/22aaed75be489493cb7e201f8997d94e496f3747",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/22aaed75be489493cb7e201f8997d94e496f3747",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/22aaed75be489493cb7e201f8997d94e496f3747/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/5a9ccd477c4312642c8f5a0024e12eada1e371e9"
+      }
+    ]
+  },
+  {
+    "sha": "5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T20:07:48Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T20:07:48Z"
+      },
+      "message": "Docsplit 0.3.3",
+      "tree": {
+        "sha": "4114f9f0b6a21ad9e3da7c2f9c02636f03278fad",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/4114f9f0b6a21ad9e3da7c2f9c02636f03278fad"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/5a9ccd477c4312642c8f5a0024e12eada1e371e9",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/5a9ccd477c4312642c8f5a0024e12eada1e371e9/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606"
+      }
+    ]
+  },
+  {
+    "sha": "ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T20:03:50Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T20:03:50Z"
+      },
+      "message": "be more aggressive about using temp directories for every MAGICK_TEMPDIR call.",
+      "tree": {
+        "sha": "e7e41a2667c1f9d908857c98c0fc0175dcbd5541",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/e7e41a2667c1f9d908857c98c0fc0175dcbd5541"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/ba2e98b6ccb94a2bfd19d1b2f86bfbc3fd2ad606/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/05142cb54b5ce3acb0be62e80f5d472ef8731bd5"
+      }
+    ]
+  },
+  {
+    "sha": "05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T18:49:11Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T18:49:11Z"
+      },
+      "message": "Docsplit 0.3.2",
+      "tree": {
+        "sha": "7ec93e41777d7da2a5a89279fc978efd965da26e",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/7ec93e41777d7da2a5a89279fc978efd965da26e"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/05142cb54b5ce3acb0be62e80f5d472ef8731bd5",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/05142cb54b5ce3acb0be62e80f5d472ef8731bd5/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/342a4ecb927f8fc157a2b0cb0110c78a6335f296"
+      }
+    ]
+  },
+  {
+    "sha": "342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T18:44:17Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-17T18:44:17Z"
+      },
+      "message": "use the MAGICK_TMPDIR environment variable for all 'gm' calls.",
+      "tree": {
+        "sha": "a9b1f2195e6017bdd019e687554f41e66fd93b84",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/a9b1f2195e6017bdd019e687554f41e66fd93b84"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/342a4ecb927f8fc157a2b0cb0110c78a6335f296",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/342a4ecb927f8fc157a2b0cb0110c78a6335f296/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab220532a42b541b21832d8032b20c841c4c3d57",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/ab220532a42b541b21832d8032b20c841c4c3d57",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/ab220532a42b541b21832d8032b20c841c4c3d57"
+      }
+    ]
+  },
+  {
+    "sha": "ab220532a42b541b21832d8032b20c841c4c3d57",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-09T16:39:02Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-09T16:39:02Z"
+      },
+      "message": "Version 0.3.1, with OCR memory limits.",
+      "tree": {
+        "sha": "76ed66fb3aaafdb076a46ce1189fc20e3a203e17",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/76ed66fb3aaafdb076a46ce1189fc20e3a203e17"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/ab220532a42b541b21832d8032b20c841c4c3d57",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/ab220532a42b541b21832d8032b20c841c4c3d57",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/ab220532a42b541b21832d8032b20c841c4c3d57",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/ab220532a42b541b21832d8032b20c841c4c3d57/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d126c92fed1c667e068b5acfa078681326feedc8",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/d126c92fed1c667e068b5acfa078681326feedc8",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/d126c92fed1c667e068b5acfa078681326feedc8"
+      }
+    ]
+  },
+  {
+    "sha": "d126c92fed1c667e068b5acfa078681326feedc8",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-09T16:36:35Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-09T16:36:35Z"
+      },
+      "message": "forcing graphicsmagick to always observe strict memory limits, even for generating tiffs for OCR.",
+      "tree": {
+        "sha": "45582540a9549ba4899a9b2f231eccdce42fddf3",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/45582540a9549ba4899a9b2f231eccdce42fddf3"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/d126c92fed1c667e068b5acfa078681326feedc8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/d126c92fed1c667e068b5acfa078681326feedc8",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/d126c92fed1c667e068b5acfa078681326feedc8",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/d126c92fed1c667e068b5acfa078681326feedc8/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/71269a89d1544d5d60d9e74ebee6acb94f8eb697"
+      }
+    ]
+  },
+  {
+    "sha": "71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T14:10:22Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T14:10:22Z"
+      },
+      "message": "new styling for docsplit 0.3.0",
+      "tree": {
+        "sha": "60a20148b5ba8103917043417badcc7a3f76ce51",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/60a20148b5ba8103917043417badcc7a3f76ce51"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/71269a89d1544d5d60d9e74ebee6acb94f8eb697",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/71269a89d1544d5d60d9e74ebee6acb94f8eb697/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "faf261f71386bbd52aec5ebf34835e085352333c",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/faf261f71386bbd52aec5ebf34835e085352333c",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/faf261f71386bbd52aec5ebf34835e085352333c"
+      }
+    ]
+  },
+  {
+    "sha": "faf261f71386bbd52aec5ebf34835e085352333c",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:50:05Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:50:05Z"
+      },
+      "message": "Updating the Docco.",
+      "tree": {
+        "sha": "dfc551d7bf74f6e6daff0203d010b6486ef165cd",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/dfc551d7bf74f6e6daff0203d010b6486ef165cd"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/faf261f71386bbd52aec5ebf34835e085352333c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/faf261f71386bbd52aec5ebf34835e085352333c",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/faf261f71386bbd52aec5ebf34835e085352333c",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/faf261f71386bbd52aec5ebf34835e085352333c/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "af904044770e36175e3fd409931ee4bfcb2df70d",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/af904044770e36175e3fd409931ee4bfcb2df70d",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/af904044770e36175e3fd409931ee4bfcb2df70d"
+      }
+    ]
+  },
+  {
+    "sha": "af904044770e36175e3fd409931ee4bfcb2df70d",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:24:59Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:24:59Z"
+      },
+      "message": "Removing argument_parser.rb, passing tests.",
+      "tree": {
+        "sha": "5ddc9ec72ce941055d3fdd6139d58be14d7153a5",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/5ddc9ec72ce941055d3fdd6139d58be14d7153a5"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/af904044770e36175e3fd409931ee4bfcb2df70d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/af904044770e36175e3fd409931ee4bfcb2df70d",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/af904044770e36175e3fd409931ee4bfcb2df70d",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/af904044770e36175e3fd409931ee4bfcb2df70d/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/7ecff43aa5bd1a253285f5881df29ce83f26ee02"
+      }
+    ]
+  },
+  {
+    "sha": "7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:07:15Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T13:07:15Z"
+      },
+      "message": "Commenting throughout.",
+      "tree": {
+        "sha": "578dace5eb18fbc4d05a19b69b61570e4fb00991",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/578dace5eb18fbc4d05a19b69b61570e4fb00991"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/7ecff43aa5bd1a253285f5881df29ce83f26ee02",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/7ecff43aa5bd1a253285f5881df29ce83f26ee02/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0"
+      }
+    ]
+  },
+  {
+    "sha": "3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T12:55:49Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-05T12:55:49Z"
+      },
+      "message": "Adding explicit runtime dependency checking, warning, and fallback behavior for non-ocr text extraction.",
+      "tree": {
+        "sha": "31d968c280b3ce1ce76ebdd94914d2e6816988fa",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/31d968c280b3ce1ce76ebdd94914d2e6816988fa"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/3cb21b7149c8021a4ee2d868d50305c3e3f2c4e0/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15"
+      }
+    ]
+  },
+  {
+    "sha": "10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T20:16:25Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T20:16:25Z"
+      },
+      "message": "Adding transparent OCR via Tesseract to Docsplit, with per-page checks and --ocr and --no-ocr flags to force it.",
+      "tree": {
+        "sha": "d4a6b455639c5aae4184c5426c72208c5afea15f",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/d4a6b455639c5aae4184c5426c72208c5afea15f"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/10378a72fde29fe231ad9c6a3b3f9df83fcd9f15/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "dc5fdd256e3909ad9022b410852b767aac57cda2",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/dc5fdd256e3909ad9022b410852b767aac57cda2",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/dc5fdd256e3909ad9022b410852b767aac57cda2"
+      }
+    ]
+  },
+  {
+    "sha": "dc5fdd256e3909ad9022b410852b767aac57cda2",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T17:38:17Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T17:38:17Z"
+      },
+      "message": "Refactoring the text_extractor in anticipation of OCR.",
+      "tree": {
+        "sha": "91e09018de62f2fcf89d9aceed541ba92e326cbe",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/91e09018de62f2fcf89d9aceed541ba92e326cbe"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/dc5fdd256e3909ad9022b410852b767aac57cda2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/dc5fdd256e3909ad9022b410852b767aac57cda2",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/dc5fdd256e3909ad9022b410852b767aac57cda2",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/dc5fdd256e3909ad9022b410852b767aac57cda2/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "99312674141b7ef9ad1461207a05fad97f6f79d4",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/99312674141b7ef9ad1461207a05fad97f6f79d4",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/99312674141b7ef9ad1461207a05fad97f6f79d4"
+      }
+    ]
+  },
+  {
+    "sha": "99312674141b7ef9ad1461207a05fad97f6f79d4",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T17:16:18Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-04T17:16:18Z"
+      },
+      "message": "Get all of the tests passing again, and a rake task for starting openoffice.",
+      "tree": {
+        "sha": "4de9cc01a73f6c0b8aba9ef46213049c094b2622",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/4de9cc01a73f6c0b8aba9ef46213049c094b2622"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/99312674141b7ef9ad1461207a05fad97f6f79d4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/99312674141b7ef9ad1461207a05fad97f6f79d4",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/99312674141b7ef9ad1461207a05fad97f6f79d4",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/99312674141b7ef9ad1461207a05fad97f6f79d4/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "af26b9ab68040020b397a0d7bc6e521fc68b0826",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/af26b9ab68040020b397a0d7bc6e521fc68b0826",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/af26b9ab68040020b397a0d7bc6e521fc68b0826"
+      }
+    ]
+  },
+  {
+    "sha": "af26b9ab68040020b397a0d7bc6e521fc68b0826",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T21:57:03Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T21:57:03Z"
+      },
+      "message": "tweaking the unsharp to be as close to the original as possible",
+      "tree": {
+        "sha": "a486d5e14c1238fba8793676a18a55a59cbb7d8e",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/a486d5e14c1238fba8793676a18a55a59cbb7d8e"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/af26b9ab68040020b397a0d7bc6e521fc68b0826",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/af26b9ab68040020b397a0d7bc6e521fc68b0826",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/af26b9ab68040020b397a0d7bc6e521fc68b0826",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/af26b9ab68040020b397a0d7bc6e521fc68b0826/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97aacd3c3366869dc22a69ecc4afb16c3b688169",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/97aacd3c3366869dc22a69ecc4afb16c3b688169",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/97aacd3c3366869dc22a69ecc4afb16c3b688169"
+      }
+    ]
+  },
+  {
+    "sha": "97aacd3c3366869dc22a69ecc4afb16c3b688169",
+    "commit": {
+      "author": {
+        "name": "Samuel Clay",
+        "email": "samuel@ofbrooklyn.com",
+        "date": "2010-08-03T18:43:02Z"
+      },
+      "committer": {
+        "name": "Samuel Clay",
+        "email": "samuel@ofbrooklyn.com",
+        "date": "2010-08-03T18:43:02Z"
+      },
+      "message": "Fixing broken tests.",
+      "tree": {
+        "sha": "ec5ebbd5f17c5df29e03a1c1d57b8e821abf274f",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/ec5ebbd5f17c5df29e03a1c1d57b8e821abf274f"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/97aacd3c3366869dc22a69ecc4afb16c3b688169",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/97aacd3c3366869dc22a69ecc4afb16c3b688169",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/97aacd3c3366869dc22a69ecc4afb16c3b688169",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/97aacd3c3366869dc22a69ecc4afb16c3b688169/comments",
+    "author": {
+      "login": "samuelclay",
+      "id": 44229,
+      "avatar_url": "https://gravatar.com/avatar/623aae0b4533bc1db9ecc20fe9ea4912?d=https%3A%2F%2Fidenticons.github.com%2Fbc194b9ebff98250f975040b7d0275ce.png&r=x",
+      "gravatar_id": "623aae0b4533bc1db9ecc20fe9ea4912",
+      "url": "https://api.github.com/users/samuelclay",
+      "html_url": "https://github.com/samuelclay",
+      "followers_url": "https://api.github.com/users/samuelclay/followers",
+      "following_url": "https://api.github.com/users/samuelclay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samuelclay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samuelclay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samuelclay/subscriptions",
+      "organizations_url": "https://api.github.com/users/samuelclay/orgs",
+      "repos_url": "https://api.github.com/users/samuelclay/repos",
+      "events_url": "https://api.github.com/users/samuelclay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samuelclay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "samuelclay",
+      "id": 44229,
+      "avatar_url": "https://gravatar.com/avatar/623aae0b4533bc1db9ecc20fe9ea4912?d=https%3A%2F%2Fidenticons.github.com%2Fbc194b9ebff98250f975040b7d0275ce.png&r=x",
+      "gravatar_id": "623aae0b4533bc1db9ecc20fe9ea4912",
+      "url": "https://api.github.com/users/samuelclay",
+      "html_url": "https://github.com/samuelclay",
+      "followers_url": "https://api.github.com/users/samuelclay/followers",
+      "following_url": "https://api.github.com/users/samuelclay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samuelclay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samuelclay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samuelclay/subscriptions",
+      "organizations_url": "https://api.github.com/users/samuelclay/orgs",
+      "repos_url": "https://api.github.com/users/samuelclay/repos",
+      "events_url": "https://api.github.com/users/samuelclay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samuelclay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66"
+      }
+    ]
+  },
+  {
+    "sha": "3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T18:25:28Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T18:25:28Z"
+      },
+      "message": "...",
+      "tree": {
+        "sha": "813e08cfe4150adae6ac14bb9d88fe144e630348",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/813e08cfe4150adae6ac14bb9d88fe144e630348"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/3f33a4c1b6969a83b2690af0b4fe8eb47e6a3d66/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea"
+      }
+    ]
+  },
+  {
+    "sha": "0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+    "commit": {
+      "author": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T18:17:09Z"
+      },
+      "committer": {
+        "name": "Jeremy Ashkenas",
+        "email": "jashkenas@gmail.com",
+        "date": "2010-08-03T18:17:09Z"
+      },
+      "message": "draft of removing nearly all java dependencies in favor of poppler and pdftk",
+      "tree": {
+        "sha": "21af4cbc8968673d658ba8d5e691673bce327ec8",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/git/trees/21af4cbc8968673d658ba8d5e691673bce327ec8"
+      },
+      "url": "https://api.github.com/repos/documentcloud/docsplit/git/commits/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/documentcloud/docsplit/commits/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+    "html_url": "https://github.com/documentcloud/docsplit/commit/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea",
+    "comments_url": "https://api.github.com/repos/documentcloud/docsplit/commits/0e27f49534ba60e9ebba9fa4b9e6fb166af02bea/comments",
+    "author": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jashkenas",
+      "id": 4732,
+      "avatar_url": "https://gravatar.com/avatar/32652ed5b8fbd2ecdb1c78e9ac567b4b?d=https%3A%2F%2Fidenticons.github.com%2Ffd1d83de2517a02d4e221ede9a681432.png&r=x",
+      "gravatar_id": "32652ed5b8fbd2ecdb1c78e9ac567b4b",
+      "url": "https://api.github.com/users/jashkenas",
+      "html_url": "https://github.com/jashkenas",
+      "followers_url": "https://api.github.com/users/jashkenas/followers",
+      "following_url": "https://api.github.com/users/jashkenas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jashkenas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jashkenas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jashkenas/subscriptions",
+      "organizations_url": "https://api.github.com/users/jashkenas/orgs",
+      "repos_url": "https://api.github.com/users/jashkenas/repos",
+      "events_url": "https://api.github.com/users/jashkenas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jashkenas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7e649e1d4e3b278d1ddeb5a49f9148dd36ad4217",
+        "url": "https://api.github.com/repos/documentcloud/docsplit/commits/7e649e1d4e3b278d1ddeb5a49f9148dd36ad4217",
+        "html_url": "https://github.com/documentcloud/docsplit/commit/7e649e1d4e3b278d1ddeb5a49f9148dd36ad4217"
+      }
+    ]
+  }
+]
