@@ -1,29 +1,38 @@
-var master,
-	new_themes,  
-	new_theme_setup, 
-	remaining = 3;
+var branch1,
+	branch2,  
+	branch3,
+	branch4, 
+	remaining = 4;
 
-d3.json("master1.json", function (error,json){
+d3.json("masterDoc.json", function (error,json){
 	if (error) return console.warn(error);
-	master = json;
+	branch1 = json;
 	if (!-- remaining) doSomething();
 	//console.log(master); 
 });
 
 
 
-d3.json("new-themes1.json", function(error, json){
+d3.json("libre.json", function (error,json){
 	if (error) return console.warn(error);
-	new_themes = json;
+	branch2 = json;
+	if (!-- remaining) doSomething();
+	//console.log(master); 
+});
+
+
+d3.json("memory.json", function(error, json){
+	if (error) return console.warn(error);
+	branch3 = json;
 	if (!--remaining) doSomething(); 
 	//console.log(new_themes);
 });
 
 
 
-d3.json("new-theme-setup1.json", function(error, json){
+d3.json("gh-pages.json", function(error, json){
 	if (error) return console.warn(error);
-	new_theme_setup = json;
+	branch4 = json;
 	if (!--remaining) doSomething();
 	//console.log(new_theme_setup.index); 
 });
@@ -32,23 +41,30 @@ function doSomething() {
 
 var data = [];
 
-master.forEach(function(d){
-	d.branch = 0;
-	data.push(d);});
-	
-new_themes.forEach(function(d){
+branch1.forEach(function(d){
 	d.branch = 1;
+	d.branchName = "Master";
+	data.push(d);});
+
+branch2.forEach(function(d){
+	d.branch = 2;
+	d.branchName = "Libre";
+	data.push(d);});
+		
+branch3.forEach(function(d){
+	d.branch = 3;
+	d.branchName = "Memory";
 	data.push(d);});
 	
-new_theme_setup.forEach(function(d){
-	d.branch = 2;
+branch4.forEach(function(d){
+	d.branch = 4;
+	d.branchName = "gh-pages";
 	data.push(d);
 	//console.log(d.branch);
 });
 
 
-
-var width = 900,
+var width = 1000,
     height = 700;
 
 var svg = d3.select("body").append("svg")
@@ -66,7 +82,7 @@ svg.append("svg:defs").selectAll("marker")
     .attr("markerWidth", 6)
     .attr("markerHeight", 6)
     .attr("orient", "auto")
-  .append("svg:path")
+    .append("svg:path")
     .attr("d", "M0,-5L10,0L0,5");
 
 var fill = d3.scale.category10();
@@ -76,35 +92,6 @@ var graph = {nodes:[], links:[]};
 
 
 graph.nodes = data;
-
-//console.log(graph.nodes[0].parents[0].sha);
-//console.log(graph.nodes[7].parents[0].sha);
-//console.log(graph.nodes[7].parents[1].sha);
-//console.log(graph.nodes[7].parents.length);
-//console.log(data.forEach(function (d) {return d.index;}));
-
-
-
-/*
-graph.nodes.map(function(d,i){ //regular nodes
-	graph.nodes.map(function(e,j) { //parent nodes
-		e.parents.map(function(f,k){ //potential 2nd parent nodes
-			if (i!=j){ //if the two nodes are not the same node
-				if (d[i].parents[0].sha == f[k].sha)
-					graph.links.push({"source":i,"target":j})//push the link's source and target attributes
-					if (d[i].sha == f[k].parents[parentCount()].sha 
-							&& j != k) { 
-						//if there is more than one parent (i.e. if graph.nodes.parents.length > 0)
-						graph.links.push({"source":i, "target":k}) //push those targets
-					} 	
-				}
-			}
-		})
-	})
-	
-})
-*/
-
 
 
 
@@ -117,10 +104,12 @@ graph.nodes.map(function(d,i){ //regular nodes
 		  }
 	  }}
 	})})
+
+//
+graph.nodes.map(function(d,i) {
 	
-
-
-
+	
+})
 
 var dates = [];
 
@@ -132,16 +121,14 @@ graph.nodes.forEach(function(d,i){
 var datesParse = [];
 dates.forEach(function(d){datesParse.push(Date.parse(d))});
 
-console.log(d3.extent(datesParse));
-//datesParse.forEach(function(d){
-//	graph.nodes.push({"date":d})
-//});
-
+//console.log(datesParse);
 console.log(graph.nodes[0]);
 
-//console.log(datesParse);
 
-//console.log(dates);
+			
+
+
+
 
 // Generate the force layout
 var force = d3.layout.force()
@@ -195,17 +182,51 @@ function line_cat_layout() {
 
   var timeScale = d3.time.scale()
   						.domain(d3.extent(datesParse))
-  						.range([50,750]);
+  						.range([50,1000]);
   						
   
   graph.nodes.forEach(function(d,i){
-    d.y = height/2 + d.branch*100;
-    d.x = timeScale(Date.parse(d.commit.author.date));
-    
+    d.y = height/2;
+    d.x = timeScale(Date.parse(d.commit.author.date)+100000); 
   });
 
   graph_update(500);
 }
+
+
+function user_layout() {
+
+  force.stop();
+ 						
+    var timeScale = d3.time.scale()
+  						.domain(d3.extent(datesParse))
+  						.range([50,1000]);
+  						
+  	var branches = [
+  				{"branchName": "Master","branchNum":1},
+				{"branchName":"Libre", "branchNum":2},
+				{"branchName": "Memory","branchNum":3},
+				{"branchName":"gh-pages","branchNum":4}
+				];
+	
+  	var headerDiv = d3.select("body")
+  					  .data(branches)
+  					  .enter()
+  					  .append("div")
+					  .attr("class","branch-name")
+					  .attr("x", 25)
+					  .attr("y", function (d) {return d.branchNum + 5000;})
+					  .attr("text",function(d) { return d.branchName}); 
+  
+  graph.nodes.forEach(function(d,i){
+    d.y = height/2 + d.branch*50 ;
+    d.x = timeScale(Date.parse(d.commit.author.date)+100000); 
+  });
+
+  graph_update(500);
+}
+
+
 
 function radial_layout() {
 
@@ -260,6 +281,7 @@ d3.select("input[value=\"random\"]").on("click", random_layout);
 d3.select("input[value=\"line\"]").on("click", line_layout);
 d3.select("input[value=\"line_cat\"]").on("click", line_cat_layout);
 d3.select("input[value=\"radial\"]").on("click", radial_layout);
+d3.select("input[value=\"user\"]").on("click", user_layout);
 
 d3.select("input[value=\"nocolor\"]").on("click", function() {
   d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
@@ -269,7 +291,7 @@ d3.select("input[value=\"color_cat\"]").on("click", category_color);
 
 d3.select("input[value=\"nosize\"]").on("click", function() {
   d3.selectAll("circle").transition().duration(500).attr("r", 5);
-})
+});
 
 d3.select("input[value=\"size_cat\"]").on("click", category_size);
 
@@ -278,14 +300,36 @@ var link = svg.selectAll(".link")
             .enter().append("line")
               .attr("class", "link")
 
+var div = d3.select("body")
+			.append("div")
+			.attr("class","tooltip")
+			.style("opacity", 0);
+			
+		
 var node = svg.selectAll(".node")
               .data(graph.nodes)
               .enter()
               .append("g").attr("class", "node")
               .style("fill", function(d){return fill(d.branch)});
 
+var formatTime = d3.time.format("%e %B %Y");
+
+
 node.append("circle")
     .attr("r", 5)
+    .on("mouseover", function(d) {
+	              	div.transition()
+	              	   .duration(200)
+	              	   .style("opacity", .9);
+	              	div.html("User: " + d.author.login + "<br/>" + "SHA:" + d.sha + "<br/>" + 								"Comment: " + d.commit.message + "<br/>" + "Branch: " + d.branchName )
+	              		.style("left", (d3.event.pageX) + "px")
+	              		.style("top", (d3.event.pageY - 28) + "px");
+	              		})
+	          .on("mouseout", function(d) { 
+	          		div.transition()
+	          			.duration(500)
+	          			.style("opacity", 0);
+	          			});
 
 force_layout();
 
