@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "ce8a24b52653b77492e5c9d382e47caf7ce658f2",
+    "commit": {
+      "author": {
+        "name": "jaubourg",
+        "email": "j@ubourg.net",
+        "date": "2014-01-25T07:20:18Z"
+      },
+      "committer": {
+        "name": "jaubourg",
+        "email": "j@ubourg.net",
+        "date": "2014-01-25T07:20:18Z"
+      },
+      "message": "Ajax: Protect against exceptions thrown synchronously by xhr.send\n\nWhen xhr.send throws an exception synchronously, the onerror handler may have\nbeen called already which, unchecked, makes the exception bubble up outside of\njQuery.ajax.\n\nWe now catch the exception pre-emptively and only rethrow if we know it hasn't\nalready been notified through the onerror handler.\n\nFixes #14683",
+      "tree": {
+        "sha": "62e7cf95401669f78fb267b7bad184408321ad1c",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/62e7cf95401669f78fb267b7bad184408321ad1c"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/ce8a24b52653b77492e5c9d382e47caf7ce658f2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/ce8a24b52653b77492e5c9d382e47caf7ce658f2",
+    "html_url": "https://github.com/jquery/jquery/commit/ce8a24b52653b77492e5c9d382e47caf7ce658f2",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/ce8a24b52653b77492e5c9d382e47caf7ce658f2/comments",
+    "author": {
+      "login": "jaubourg",
+      "id": 160354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/160354",
+      "gravatar_id": "3132902b0c2bd9b95eced29c649263a1",
+      "url": "https://api.github.com/users/jaubourg",
+      "html_url": "https://github.com/jaubourg",
+      "followers_url": "https://api.github.com/users/jaubourg/followers",
+      "following_url": "https://api.github.com/users/jaubourg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaubourg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaubourg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaubourg/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaubourg/orgs",
+      "repos_url": "https://api.github.com/users/jaubourg/repos",
+      "events_url": "https://api.github.com/users/jaubourg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaubourg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jaubourg",
+      "id": 160354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/160354",
+      "gravatar_id": "3132902b0c2bd9b95eced29c649263a1",
+      "url": "https://api.github.com/users/jaubourg",
+      "html_url": "https://github.com/jaubourg",
+      "followers_url": "https://api.github.com/users/jaubourg/followers",
+      "following_url": "https://api.github.com/users/jaubourg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaubourg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaubourg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaubourg/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaubourg/orgs",
+      "repos_url": "https://api.github.com/users/jaubourg/repos",
+      "events_url": "https://api.github.com/users/jaubourg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaubourg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4655c3de5f0348da25452ea64d80613bf919284e",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/4655c3de5f0348da25452ea64d80613bf919284e",
+        "html_url": "https://github.com/jquery/jquery/commit/4655c3de5f0348da25452ea64d80613bf919284e"
+      }
+    ]
+  },
+  {
+    "sha": "4655c3de5f0348da25452ea64d80613bf919284e",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T21:12:48Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T21:12:48Z"
+      },
+      "message": "Updating the master version to 2.1.1pre.",
+      "tree": {
+        "sha": "75137269ded7a3c9b419f8321c1e5af0a7afe285",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/75137269ded7a3c9b419f8321c1e5af0a7afe285"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/4655c3de5f0348da25452ea64d80613bf919284e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/4655c3de5f0348da25452ea64d80613bf919284e",
+    "html_url": "https://github.com/jquery/jquery/commit/4655c3de5f0348da25452ea64d80613bf919284e",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/4655c3de5f0348da25452ea64d80613bf919284e/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "de7702ac59889177b0dd622d3b5503004abf0258",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/de7702ac59889177b0dd622d3b5503004abf0258",
+        "html_url": "https://github.com/jquery/jquery/commit/de7702ac59889177b0dd622d3b5503004abf0258"
+      }
+    ]
+  },
+  {
+    "sha": "de7702ac59889177b0dd622d3b5503004abf0258",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T20:45:23Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T21:00:54Z"
+      },
+      "message": "Release: Instantiate a zip archiver, run archivers async",
+      "tree": {
+        "sha": "b86aa8140d7769d5c5f6cfd9f61b92388b1a8368",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/b86aa8140d7769d5c5f6cfd9f61b92388b1a8368"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/de7702ac59889177b0dd622d3b5503004abf0258",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/de7702ac59889177b0dd622d3b5503004abf0258",
+    "html_url": "https://github.com/jquery/jquery/commit/de7702ac59889177b0dd622d3b5503004abf0258",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/de7702ac59889177b0dd622d3b5503004abf0258/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+        "html_url": "https://github.com/jquery/jquery/commit/a20494228d51c57c454ff9f10a4ba8bbdda0e49c"
+      }
+    ]
+  },
+  {
+    "sha": "a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-22T22:50:36Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-23T18:04:40Z"
+      },
+      "message": "Manipulation: Use textarea for missing IE defaultValue check\n\nIE11 fixed the checkbox defaultValue issue but not textarea. Rather than\ncreating a new detect name I'm reusing the old one to protect anyone who\nis unwisely using this externally. Re-fixing the defaultValue when it\ndoesn't need to be done is not a problem, so leave that code for IE11.\n\nFixes #14716\nCloses gh-1495",
+      "tree": {
+        "sha": "c19061e8cf64c93e9017b875e89592df050db6de",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c19061e8cf64c93e9017b875e89592df050db6de"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+    "html_url": "https://github.com/jquery/jquery/commit/a20494228d51c57c454ff9f10a4ba8bbdda0e49c",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a20494228d51c57c454ff9f10a4ba8bbdda0e49c/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+        "html_url": "https://github.com/jquery/jquery/commit/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff"
+      }
+    ]
+  },
+  {
+    "sha": "3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:49:10Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:49:10Z"
+      },
+      "message": "Tests: fix Safari userAgent detection",
+      "tree": {
+        "sha": "8b652bdd6c1b9076d5f50a15d1d1786c75e4023a",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/8b652bdd6c1b9076d5f50a15d1d1786c75e4023a"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+    "html_url": "https://github.com/jquery/jquery/commit/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+        "html_url": "https://github.com/jquery/jquery/commit/37d036a84cfcd39e3ca7723540c6a6791d58fc69"
+      }
+    ]
+  },
+  {
+    "sha": "37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:35:09Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:35:09Z"
+      },
+      "message": "Support: Add expected support results for Safari 7 & IE11",
+      "tree": {
+        "sha": "bacdc6fce32b85713245f26dc05abb14fe80fd51",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/bacdc6fce32b85713245f26dc05abb14fe80fd51"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+      "comment_count": 11
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+    "html_url": "https://github.com/jquery/jquery/commit/37d036a84cfcd39e3ca7723540c6a6791d58fc69",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/37d036a84cfcd39e3ca7723540c6a6791d58fc69/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c11becbb692f7707443eb2582543dfe96e8319e6",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/c11becbb692f7707443eb2582543dfe96e8319e6",
+        "html_url": "https://github.com/jquery/jquery/commit/c11becbb692f7707443eb2582543dfe96e8319e6"
+      }
+    ]
+  },
+  {
+    "sha": "c11becbb692f7707443eb2582543dfe96e8319e6",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-21T11:02:09Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-21T11:02:09Z"
+      },
+      "message": "Tests: Blacklist one effects test in Chrome 31\n\nChrome 31 reports incorrect offsetWidth on a table cell with fixed width.\nThis is fixed in Chrome 32 so let’s just skip the failing test in Chrome 31.\nSee https://code.google.com/p/chromium/issues/detail?id=290399",
+      "tree": {
+        "sha": "edcadfdc366e24c775777161e3dc8b39df66f7dc",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/edcadfdc366e24c775777161e3dc8b39df66f7dc"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/c11becbb692f7707443eb2582543dfe96e8319e6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/c11becbb692f7707443eb2582543dfe96e8319e6",
+    "html_url": "https://github.com/jquery/jquery/commit/c11becbb692f7707443eb2582543dfe96e8319e6",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/c11becbb692f7707443eb2582543dfe96e8319e6/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "391c21b15d769fac1c37631b28c0226f57a59796",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/391c21b15d769fac1c37631b28c0226f57a59796",
+        "html_url": "https://github.com/jquery/jquery/commit/391c21b15d769fac1c37631b28c0226f57a59796"
+      }
+    ]
+  },
+  {
+    "sha": "391c21b15d769fac1c37631b28c0226f57a59796",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-17T05:38:56Z"
+      },
+      "committer": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-17T05:38:56Z"
+      },
+      "message": "Traversing: Check all pairwise element combinations for .find( els )\n\nRef b8d0d54a3c4960794a1b492957abeb56eddd1e48\nFixes #14701",
+      "tree": {
+        "sha": "dcd2224095bcaec30b7e4114a89b0da196d71ba3",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/dcd2224095bcaec30b7e4114a89b0da196d71ba3"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/391c21b15d769fac1c37631b28c0226f57a59796",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/391c21b15d769fac1c37631b28c0226f57a59796",
+    "html_url": "https://github.com/jquery/jquery/commit/391c21b15d769fac1c37631b28c0226f57a59796",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/391c21b15d769fac1c37631b28c0226f57a59796/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a2250b0f4c157745b8cd8ac1247c6084882c500f",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a2250b0f4c157745b8cd8ac1247c6084882c500f",
+        "html_url": "https://github.com/jquery/jquery/commit/a2250b0f4c157745b8cd8ac1247c6084882c500f"
+      }
+    ]
+  },
+  {
+    "sha": "a2250b0f4c157745b8cd8ac1247c6084882c500f",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T03:04:14Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T03:04:14Z"
+      },
+      "message": "Tests: Fix code style issues",
+      "tree": {
+        "sha": "f9fe13e865f881e877a7f0bdc7349c34bdc3dee0",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/f9fe13e865f881e877a7f0bdc7349c34bdc3dee0"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a2250b0f4c157745b8cd8ac1247c6084882c500f",
+      "comment_count": 3
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a2250b0f4c157745b8cd8ac1247c6084882c500f",
+    "html_url": "https://github.com/jquery/jquery/commit/a2250b0f4c157745b8cd8ac1247c6084882c500f",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a2250b0f4c157745b8cd8ac1247c6084882c500f/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "659ac9c155a9ecee03e635dde1661be7081322f3",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/659ac9c155a9ecee03e635dde1661be7081322f3",
+        "html_url": "https://github.com/jquery/jquery/commit/659ac9c155a9ecee03e635dde1661be7081322f3"
+      }
+    ]
+  },
+  {
+    "sha": "659ac9c155a9ecee03e635dde1661be7081322f3",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T02:58:54Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T02:58:54Z"
+      },
+      "message": "Tests: Add assertion for the jQuery#val method",
+      "tree": {
+        "sha": "ab35e15555b861c3677324b5e2549b15615a7da3",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/ab35e15555b861c3677324b5e2549b15615a7da3"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/659ac9c155a9ecee03e635dde1661be7081322f3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/659ac9c155a9ecee03e635dde1661be7081322f3",
+    "html_url": "https://github.com/jquery/jquery/commit/659ac9c155a9ecee03e635dde1661be7081322f3",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/659ac9c155a9ecee03e635dde1661be7081322f3/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fdd78fad19ea3390cd96971cd29430e36378d137",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/fdd78fad19ea3390cd96971cd29430e36378d137",
+        "html_url": "https://github.com/jquery/jquery/commit/fdd78fad19ea3390cd96971cd29430e36378d137"
+      }
+    ]
+  },
+  {
+    "sha": "fdd78fad19ea3390cd96971cd29430e36378d137",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-12T19:44:07Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T00:47:44Z"
+      },
+      "message": "Attrs: Remove outdated valHook for option element\n\nThis hook was relevant for BlackBerry 4.7 which is no longer supported.\n\nBut this code path now raises error in IE10-11 (#14686) in 1.x-master branch.\nSo to just to be safe, also add test for IE issue to this branch too.",
+      "tree": {
+        "sha": "48fffaafa5e375c3206abfb6366b4f27e2a27c9a",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/48fffaafa5e375c3206abfb6366b4f27e2a27c9a"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/fdd78fad19ea3390cd96971cd29430e36378d137",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/fdd78fad19ea3390cd96971cd29430e36378d137",
+    "html_url": "https://github.com/jquery/jquery/commit/fdd78fad19ea3390cd96971cd29430e36378d137",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/fdd78fad19ea3390cd96971cd29430e36378d137/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "38c122a73a843a0d117d4f962cc94fda6f553086",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/38c122a73a843a0d117d4f962cc94fda6f553086",
+        "html_url": "https://github.com/jquery/jquery/commit/38c122a73a843a0d117d4f962cc94fda6f553086"
+      }
+    ]
+  },
+  {
+    "sha": "38c122a73a843a0d117d4f962cc94fda6f553086",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-14T17:48:42Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-14T18:01:39Z"
+      },
+      "message": "Tests: Remove one of the checks for memory leak\n\nThis check is redundant since jQuery.fragments object does not exist anymore",
+      "tree": {
+        "sha": "1d0f330400f950cf371f9c54ea9671c371bef94d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/1d0f330400f950cf371f9c54ea9671c371bef94d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/38c122a73a843a0d117d4f962cc94fda6f553086",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/38c122a73a843a0d117d4f962cc94fda6f553086",
+    "html_url": "https://github.com/jquery/jquery/commit/38c122a73a843a0d117d4f962cc94fda6f553086",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/38c122a73a843a0d117d4f962cc94fda6f553086/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "710d236ad1cf5824ec10a2278a425f78fac7e0de",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/710d236ad1cf5824ec10a2278a425f78fac7e0de",
+        "html_url": "https://github.com/jquery/jquery/commit/710d236ad1cf5824ec10a2278a425f78fac7e0de"
+      }
+    ]
+  },
+  {
+    "sha": "710d236ad1cf5824ec10a2278a425f78fac7e0de",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-13T21:37:42Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-13T21:37:42Z"
+      },
+      "message": "Sizzle: update committed dependencies",
+      "tree": {
+        "sha": "39f5d16764bc9f312fc76f81dfe457293edde413",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/39f5d16764bc9f312fc76f81dfe457293edde413"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/710d236ad1cf5824ec10a2278a425f78fac7e0de",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/710d236ad1cf5824ec10a2278a425f78fac7e0de",
+    "html_url": "https://github.com/jquery/jquery/commit/710d236ad1cf5824ec10a2278a425f78fac7e0de",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/710d236ad1cf5824ec10a2278a425f78fac7e0de/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+        "html_url": "https://github.com/jquery/jquery/commit/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62"
+      }
+    ]
+  },
+  {
+    "sha": "9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-13T14:37:10Z"
+      },
+      "committer": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-13T14:37:10Z"
+      },
+      "message": "Selector: Update Sizzle\n\nFixes #14657",
+      "tree": {
+        "sha": "c59c22bdef7e24d171a11d6f043d0060f3b5db89",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c59c22bdef7e24d171a11d6f043d0060f3b5db89"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+      "comment_count": 15
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+    "html_url": "https://github.com/jquery/jquery/commit/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/9ac88dea494b0b79d1e1d1d26f8d9f5eb670cf62/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "478cf3783b5d3fa142c532871b434a8210cee9ad",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/478cf3783b5d3fa142c532871b434a8210cee9ad",
+        "html_url": "https://github.com/jquery/jquery/commit/478cf3783b5d3fa142c532871b434a8210cee9ad"
+      }
+    ]
+  },
+  {
+    "sha": "478cf3783b5d3fa142c532871b434a8210cee9ad",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T22:29:03Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T22:29:03Z"
+      },
+      "message": "Authors: Update AUTHORS.txt and .mailmap",
+      "tree": {
+        "sha": "48d71ba80a875181d2943f9da5e8e26fe96cc441",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/48d71ba80a875181d2943f9da5e8e26fe96cc441"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/478cf3783b5d3fa142c532871b434a8210cee9ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/478cf3783b5d3fa142c532871b434a8210cee9ad",
+    "html_url": "https://github.com/jquery/jquery/commit/478cf3783b5d3fa142c532871b434a8210cee9ad",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/478cf3783b5d3fa142c532871b434a8210cee9ad/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+        "html_url": "https://github.com/jquery/jquery/commit/20ea8071b44c23e7915300eacc9ed958fbe4eaf5"
+      }
+    ]
+  },
+  {
+    "sha": "20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+    "commit": {
+      "author": {
+        "name": "Jörn Zaefferer",
+        "email": "joern.zaefferer@gmail.com",
+        "date": "2014-01-10T12:45:01Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T14:25:11Z"
+      },
+      "message": "Release: Publish to npm\n\nCloses gh-1479",
+      "tree": {
+        "sha": "c2ddb839c582b3460d8a2773c95e6a07489f0cc1",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c2ddb839c582b3460d8a2773c95e6a07489f0cc1"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+    "html_url": "https://github.com/jquery/jquery/commit/20ea8071b44c23e7915300eacc9ed958fbe4eaf5",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/20ea8071b44c23e7915300eacc9ed958fbe4eaf5/comments",
+    "author": {
+      "login": "jzaefferer",
+      "id": 52585,
+      "avatar_url": "https://avatars.githubusercontent.com/u/52585",
+      "gravatar_id": "a9d4d2558b560b0ef168ced0f6c5198c",
+      "url": "https://api.github.com/users/jzaefferer",
+      "html_url": "https://github.com/jzaefferer",
+      "followers_url": "https://api.github.com/users/jzaefferer/followers",
+      "following_url": "https://api.github.com/users/jzaefferer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jzaefferer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jzaefferer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jzaefferer/subscriptions",
+      "organizations_url": "https://api.github.com/users/jzaefferer/orgs",
+      "repos_url": "https://api.github.com/users/jzaefferer/repos",
+      "events_url": "https://api.github.com/users/jzaefferer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jzaefferer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6bff3bf7d72383c1458004d4aae454b61caa400f",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/6bff3bf7d72383c1458004d4aae454b61caa400f",
+        "html_url": "https://github.com/jquery/jquery/commit/6bff3bf7d72383c1458004d4aae454b61caa400f"
+      }
+    ]
+  },
+  {
+    "sha": "6bff3bf7d72383c1458004d4aae454b61caa400f",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T03:36:07Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T03:36:07Z"
+      },
+      "message": "Tests: Remove html5 shiv",
+      "tree": {
+        "sha": "e4c582ff5a5c0565bde9a0a735a0912fd4a9a614",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/e4c582ff5a5c0565bde9a0a735a0912fd4a9a614"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/6bff3bf7d72383c1458004d4aae454b61caa400f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/6bff3bf7d72383c1458004d4aae454b61caa400f",
+    "html_url": "https://github.com/jquery/jquery/commit/6bff3bf7d72383c1458004d4aae454b61caa400f",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/6bff3bf7d72383c1458004d4aae454b61caa400f/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6de1d973a436282af7dfe3072924016c3cdc1984",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/6de1d973a436282af7dfe3072924016c3cdc1984",
+        "html_url": "https://github.com/jquery/jquery/commit/6de1d973a436282af7dfe3072924016c3cdc1984"
+      }
+    ]
+  },
+  {
+    "sha": "6de1d973a436282af7dfe3072924016c3cdc1984",
+    "commit": {
+      "author": {
+        "name": "Forbes Lindesay",
+        "email": "forbes@lindesay.co.uk",
+        "date": "2014-01-08T13:44:10Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T02:27:28Z"
+      },
+      "message": "Intro: Pass window to intro if available, for browserify\n\nCloses gh-1476",
+      "tree": {
+        "sha": "5972b18cd17991644cf1cf1a9827daa7199e892b",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/5972b18cd17991644cf1cf1a9827daa7199e892b"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/6de1d973a436282af7dfe3072924016c3cdc1984",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/6de1d973a436282af7dfe3072924016c3cdc1984",
+    "html_url": "https://github.com/jquery/jquery/commit/6de1d973a436282af7dfe3072924016c3cdc1984",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/6de1d973a436282af7dfe3072924016c3cdc1984/comments",
+    "author": {
+      "login": "ForbesLindesay",
+      "id": 1260646,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1260646",
+      "gravatar_id": "eb3e104452d654350a5d1a65caa2e49e",
+      "url": "https://api.github.com/users/ForbesLindesay",
+      "html_url": "https://github.com/ForbesLindesay",
+      "followers_url": "https://api.github.com/users/ForbesLindesay/followers",
+      "following_url": "https://api.github.com/users/ForbesLindesay/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ForbesLindesay/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ForbesLindesay/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ForbesLindesay/subscriptions",
+      "organizations_url": "https://api.github.com/users/ForbesLindesay/orgs",
+      "repos_url": "https://api.github.com/users/ForbesLindesay/repos",
+      "events_url": "https://api.github.com/users/ForbesLindesay/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ForbesLindesay/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3118f58c465286d538404669d09026b882b2149e",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/3118f58c465286d538404669d09026b882b2149e",
+        "html_url": "https://github.com/jquery/jquery/commit/3118f58c465286d538404669d09026b882b2149e"
+      }
+    ]
+  },
+  {
+    "sha": "3118f58c465286d538404669d09026b882b2149e",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T01:51:21Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-10T01:51:21Z"
+      },
+      "message": "Build: Happy New Year! Thanks @marlonlandaverde",
+      "tree": {
+        "sha": "a0f1148dc222e4af8382fb4145b161ca11b6cbac",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/a0f1148dc222e4af8382fb4145b161ca11b6cbac"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/3118f58c465286d538404669d09026b882b2149e",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/3118f58c465286d538404669d09026b882b2149e",
+    "html_url": "https://github.com/jquery/jquery/commit/3118f58c465286d538404669d09026b882b2149e",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/3118f58c465286d538404669d09026b882b2149e/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "085814474e4a854d533b5ccbaef24c090081e0c4",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/085814474e4a854d533b5ccbaef24c090081e0c4",
+        "html_url": "https://github.com/jquery/jquery/commit/085814474e4a854d533b5ccbaef24c090081e0c4"
+      }
+    ]
+  },
+  {
+    "sha": "085814474e4a854d533b5ccbaef24c090081e0c4",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-12-24T20:59:37Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-07T21:01:34Z"
+      },
+      "message": "Effects: First step() call should match :animated selector\n\nFixes #14623\nCloses gh-1473",
+      "tree": {
+        "sha": "622b6651fdc4fd12e11155d3ed1a49ae02ffd287",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/622b6651fdc4fd12e11155d3ed1a49ae02ffd287"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/085814474e4a854d533b5ccbaef24c090081e0c4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/085814474e4a854d533b5ccbaef24c090081e0c4",
+    "html_url": "https://github.com/jquery/jquery/commit/085814474e4a854d533b5ccbaef24c090081e0c4",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/085814474e4a854d533b5ccbaef24c090081e0c4/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+        "html_url": "https://github.com/jquery/jquery/commit/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376"
+      }
+    ]
+  },
+  {
+    "sha": "5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-06T20:04:20Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-06T20:14:17Z"
+      },
+      "message": "Docs: Link to the browser support page in CONTRIBUTING.md\n\nInstead of duplicating the supported browsers matrix, just link to\nthe browser support page on jquery.com.",
+      "tree": {
+        "sha": "cb23f9fe5fe69cbadd72792dac6b3de8cb507c72",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/cb23f9fe5fe69cbadd72792dac6b3de8cb507c72"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+    "html_url": "https://github.com/jquery/jquery/commit/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/5801c3a29a3c9a0d43f36c1d844f7cc7c24b3376/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+        "html_url": "https://github.com/jquery/jquery/commit/4d19306c7fe3e36dc5deba65b64a339baf2750e5"
+      }
+    ]
+  },
+  {
+    "sha": "4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-06T19:49:58Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-06T19:49:58Z"
+      },
+      "message": "README: Add jQuery environment notes",
+      "tree": {
+        "sha": "fcbc872ab04d276931760213c3b384f6cbc0ae8d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/fcbc872ab04d276931760213c3b384f6cbc0ae8d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+    "html_url": "https://github.com/jquery/jquery/commit/4d19306c7fe3e36dc5deba65b64a339baf2750e5",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/4d19306c7fe3e36dc5deba65b64a339baf2750e5/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7d758aca355522f814aaa91e8199942b1f0d2e6c",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/7d758aca355522f814aaa91e8199942b1f0d2e6c",
+        "html_url": "https://github.com/jquery/jquery/commit/7d758aca355522f814aaa91e8199942b1f0d2e6c"
+      }
+    ]
+  },
+  {
+    "sha": "7d758aca355522f814aaa91e8199942b1f0d2e6c",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-31T22:39:58Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-31T22:39:58Z"
+      },
+      "message": "Update grunt-bowercopy to 0.5.0",
+      "tree": {
+        "sha": "63f71698a5dab86032f956a494ec2083c4bfa2da",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/63f71698a5dab86032f956a494ec2083c4bfa2da"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/7d758aca355522f814aaa91e8199942b1f0d2e6c",
+      "comment_count": 8
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/7d758aca355522f814aaa91e8199942b1f0d2e6c",
+    "html_url": "https://github.com/jquery/jquery/commit/7d758aca355522f814aaa91e8199942b1f0d2e6c",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/7d758aca355522f814aaa91e8199942b1f0d2e6c/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+        "html_url": "https://github.com/jquery/jquery/commit/e1a4329d78a5bae18d19fb94c1c3714ad45258ef"
+      }
+    ]
+  },
+  {
+    "sha": "e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2013-12-31T19:38:34Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2013-12-31T19:38:34Z"
+      },
+      "message": "Doc: Update links and simplify build instructions",
+      "tree": {
+        "sha": "8f2cf8d6a82551719528b8b4d0a63534afe48985",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/8f2cf8d6a82551719528b8b4d0a63534afe48985"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+    "html_url": "https://github.com/jquery/jquery/commit/e1a4329d78a5bae18d19fb94c1c3714ad45258ef",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/e1a4329d78a5bae18d19fb94c1c3714ad45258ef/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+        "html_url": "https://github.com/jquery/jquery/commit/b39ee05b69336d5a6230287ab8bd48c48e5b206f"
+      }
+    ]
+  },
+  {
+    "sha": "b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+    "commit": {
+      "author": {
+        "name": "Timo Tijhof",
+        "email": "krinklemail@gmail.com",
+        "date": "2013-12-14T01:10:46Z"
+      },
+      "committer": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2013-12-30T17:34:08Z"
+      },
+      "message": "traversing: Optimise .add by not using makeArray\n\nCloses gh-1430",
+      "tree": {
+        "sha": "3048eac1058432da77c7584a712c48ed812c07e0",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/3048eac1058432da77c7584a712c48ed812c07e0"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+    "html_url": "https://github.com/jquery/jquery/commit/b39ee05b69336d5a6230287ab8bd48c48e5b206f",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/b39ee05b69336d5a6230287ab8bd48c48e5b206f/comments",
+    "author": {
+      "login": "Krinkle",
+      "id": 156867,
+      "avatar_url": "https://avatars.githubusercontent.com/u/156867",
+      "gravatar_id": "49061e8503ca321a8045c9065963a8c6",
+      "url": "https://api.github.com/users/Krinkle",
+      "html_url": "https://github.com/Krinkle",
+      "followers_url": "https://api.github.com/users/Krinkle/followers",
+      "following_url": "https://api.github.com/users/Krinkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Krinkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Krinkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Krinkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/Krinkle/orgs",
+      "repos_url": "https://api.github.com/users/Krinkle/repos",
+      "events_url": "https://api.github.com/users/Krinkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Krinkle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "537e9ced6164074c32df429bb1fa4c30361aa711",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/537e9ced6164074c32df429bb1fa4c30361aa711",
+        "html_url": "https://github.com/jquery/jquery/commit/537e9ced6164074c32df429bb1fa4c30361aa711"
+      }
+    ]
+  },
+  {
+    "sha": "537e9ced6164074c32df429bb1fa4c30361aa711",
+    "commit": {
+      "author": {
+        "name": "cjqed",
+        "email": "christopherjonesqed@gmail.com",
+        "date": "2013-12-11T16:34:05Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-12-23T22:21:22Z"
+      },
+      "message": "Tests: Avoid use of QUnit.reset() in tests by splitting them\n\nFix #14040\nClose gh-1457",
+      "tree": {
+        "sha": "6b051e88b52f93e2cd312de42bc7acfd6f802e1d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/6b051e88b52f93e2cd312de42bc7acfd6f802e1d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/537e9ced6164074c32df429bb1fa4c30361aa711",
+      "comment_count": 7
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/537e9ced6164074c32df429bb1fa4c30361aa711",
+    "html_url": "https://github.com/jquery/jquery/commit/537e9ced6164074c32df429bb1fa4c30361aa711",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/537e9ced6164074c32df429bb1fa4c30361aa711/comments",
+    "author": {
+      "login": "cjqed",
+      "id": 3013022,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3013022",
+      "gravatar_id": "b9889912d2d2c191a857070d2e56236c",
+      "url": "https://api.github.com/users/cjqed",
+      "html_url": "https://github.com/cjqed",
+      "followers_url": "https://api.github.com/users/cjqed/followers",
+      "following_url": "https://api.github.com/users/cjqed/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cjqed/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cjqed/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cjqed/subscriptions",
+      "organizations_url": "https://api.github.com/users/cjqed/orgs",
+      "repos_url": "https://api.github.com/users/cjqed/repos",
+      "events_url": "https://api.github.com/users/cjqed/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cjqed/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "23db99440497fccbe9db8853a530d3d30d9320e4",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/23db99440497fccbe9db8853a530d3d30d9320e4",
+        "html_url": "https://github.com/jquery/jquery/commit/23db99440497fccbe9db8853a530d3d30d9320e4"
+      }
+    ]
+  },
+  {
+    "sha": "23db99440497fccbe9db8853a530d3d30d9320e4",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-21T17:07:40Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-21T17:07:40Z"
+      },
+      "message": "Release script: _tracMilestone -> tracMilestone",
+      "tree": {
+        "sha": "0f561127ee4f5d801aed4854a2c89d004aeb44d9",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/0f561127ee4f5d801aed4854a2c89d004aeb44d9"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/23db99440497fccbe9db8853a530d3d30d9320e4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/23db99440497fccbe9db8853a530d3d30d9320e4",
+    "html_url": "https://github.com/jquery/jquery/commit/23db99440497fccbe9db8853a530d3d30d9320e4",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/23db99440497fccbe9db8853a530d3d30d9320e4/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+        "html_url": "https://github.com/jquery/jquery/commit/e0fad093b63d2d197a9c59ccce8896d75a83c95e"
+      }
+    ]
+  },
+  {
+    "sha": "e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T23:39:16Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T23:39:16Z"
+      },
+      "message": "exports/global: Do not attach global variables for most CommonJS environments\n\nFor CommonJS environments where the global already has a document, it is expected\nthat if a global is needed, the user can attach the global.\n\nFixes #14645.",
+      "tree": {
+        "sha": "c824f51a649e3a3abc398faf38ad1c46ae4dce5d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c824f51a649e3a3abc398faf38ad1c46ae4dce5d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+    "html_url": "https://github.com/jquery/jquery/commit/e0fad093b63d2d197a9c59ccce8896d75a83c95e",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/e0fad093b63d2d197a9c59ccce8896d75a83c95e/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+        "html_url": "https://github.com/jquery/jquery/commit/281808f61d2ea5e47a1be2b9d1a4577194aa1a86"
+      }
+    ]
+  },
+  {
+    "sha": "281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T23:38:57Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T23:38:57Z"
+      },
+      "message": "Gruntfile: fix watch task",
+      "tree": {
+        "sha": "d8875b74333422e50e254f1e924889b04d169bc9",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/d8875b74333422e50e254f1e924889b04d169bc9"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+    "html_url": "https://github.com/jquery/jquery/commit/281808f61d2ea5e47a1be2b9d1a4577194aa1a86",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/281808f61d2ea5e47a1be2b9d1a4577194aa1a86/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+        "html_url": "https://github.com/jquery/jquery/commit/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a"
+      }
+    ]
+  },
+  {
+    "sha": "74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T22:37:38Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2013-12-20T22:37:38Z"
+      },
+      "message": "Release script: minor formatting issue.",
+      "tree": {
+        "sha": "da70b40aebc83122bd2026fc21e877d876bdc9c0",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/da70b40aebc83122bd2026fc21e877d876bdc9c0"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+    "html_url": "https://github.com/jquery/jquery/commit/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/74a48958bd1f4b00a8a12bb0052f10fd13e85a1a/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f3062f96e04cd0ecfdbdcccfcd2733b06beca131",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/f3062f96e04cd0ecfdbdcccfcd2733b06beca131",
+        "html_url": "https://github.com/jquery/jquery/commit/f3062f96e04cd0ecfdbdcccfcd2733b06beca131"
+      }
+    ]
+  }
+]

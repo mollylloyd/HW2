@@ -1,0 +1,1 @@
+I fractured a vertebra on 2/27 and was unable to complete the assignment. I can furnish my hospital documents if need be. 

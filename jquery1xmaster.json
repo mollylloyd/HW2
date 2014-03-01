@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "f361f0378b80f6141e79d906821f6964bcdfbfc4",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-02-19T22:57:34Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-02-19T22:58:50Z"
+      },
+      "message": "Bower: stop ignoring yourself, bower\n\nRef #14798\nRef gh-1516\nRef gh-1338",
+      "tree": {
+        "sha": "2e0111e3c32a1d453a7cdd6b1f73baef9e73ac7c",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/2e0111e3c32a1d453a7cdd6b1f73baef9e73ac7c"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/f361f0378b80f6141e79d906821f6964bcdfbfc4",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/f361f0378b80f6141e79d906821f6964bcdfbfc4",
+    "html_url": "https://github.com/jquery/jquery/commit/f361f0378b80f6141e79d906821f6964bcdfbfc4",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/f361f0378b80f6141e79d906821f6964bcdfbfc4/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+        "html_url": "https://github.com/jquery/jquery/commit/833d7a69ea2c5437a5ee5a60fbf4e89acd857717"
+      }
+    ]
+  },
+  {
+    "sha": "833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-02-19T22:25:00Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-02-19T22:29:13Z"
+      },
+      "message": "Bower: add main property, move Sizzle to devDependencies, add license property\n\nFixes #14798\nClose gh-1516\nRef gh-1338\n\nConflicts:\n\tbower.json",
+      "tree": {
+        "sha": "7aff10e312dd0c944185ad8407498ebde36dc459",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/7aff10e312dd0c944185ad8407498ebde36dc459"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+    "html_url": "https://github.com/jquery/jquery/commit/833d7a69ea2c5437a5ee5a60fbf4e89acd857717",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/833d7a69ea2c5437a5ee5a60fbf4e89acd857717/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+        "html_url": "https://github.com/jquery/jquery/commit/a96ff1c3a864cee27ac3014b63b7054bb938c30d"
+      }
+    ]
+  },
+  {
+    "sha": "a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:13:15Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:13:15Z"
+      },
+      "message": "Effects: Don't check fill-opacity in Android 2.3, it's not supported\n\n(cherry-picked from 70ac4485f30633074696fa28ca29b0325459f228)",
+      "tree": {
+        "sha": "48e64db657c31c36c23f9313049f48c9414d8789",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/48e64db657c31c36c23f9313049f48c9414d8789"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+    "html_url": "https://github.com/jquery/jquery/commit/a96ff1c3a864cee27ac3014b63b7054bb938c30d",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a96ff1c3a864cee27ac3014b63b7054bb938c30d/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "92361f33516db98ed20d8af7b50192f1b38b94ec",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/92361f33516db98ed20d8af7b50192f1b38b94ec",
+        "html_url": "https://github.com/jquery/jquery/commit/92361f33516db98ed20d8af7b50192f1b38b94ec"
+      }
+    ]
+  },
+  {
+    "sha": "92361f33516db98ed20d8af7b50192f1b38b94ec",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:01:43Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:01:43Z"
+      },
+      "message": "Event: Blacklist the onbeforeunload test in Android 2.3\n\nSimilarly to iOS, Android 2.3 has the onbeforeunload property on window\nbut doesn't support the event. This commit blacklists the test there as well.\n\n(cherry-picked from 6d2ab64df7bdda087e79deaa53db969fa6f2cd92)",
+      "tree": {
+        "sha": "d7f9fc3d11a4d6fe613f119bd907d2282e312ffa",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/d7f9fc3d11a4d6fe613f119bd907d2282e312ffa"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/92361f33516db98ed20d8af7b50192f1b38b94ec",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/92361f33516db98ed20d8af7b50192f1b38b94ec",
+    "html_url": "https://github.com/jquery/jquery/commit/92361f33516db98ed20d8af7b50192f1b38b94ec",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/92361f33516db98ed20d8af7b50192f1b38b94ec/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+        "html_url": "https://github.com/jquery/jquery/commit/a0677d54a6c1557d8b176e58a2bc45b396fe7889"
+      }
+    ]
+  },
+  {
+    "sha": "a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:01:09Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-14T00:01:09Z"
+      },
+      "message": "Css: Don't check fill-opacity in Android 2.3, it's not supported\n\n(cherry-picked from de75b3cc626829c3478a8a6d59dddc948d348b41)",
+      "tree": {
+        "sha": "15345c608ca75bac8a8e15c67ab7bbed336b3af2",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/15345c608ca75bac8a8e15c67ab7bbed336b3af2"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+    "html_url": "https://github.com/jquery/jquery/commit/a0677d54a6c1557d8b176e58a2bc45b396fe7889",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a0677d54a6c1557d8b176e58a2bc45b396fe7889/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+        "html_url": "https://github.com/jquery/jquery/commit/81b89fd227be2a59db0579ffc93ddbbc19d14dc9"
+      }
+    ]
+  },
+  {
+    "sha": "81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-02-13T22:51:57Z"
+      },
+      "committer": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-02-13T22:57:20Z"
+      },
+      "message": "Support: Skip style-based tests when element.style is undefined\n\nFixes #14785\nRef #13754\nRef badcd1b6f301e6253405f17759c1270549a34e12",
+      "tree": {
+        "sha": "323b50744b6f75d64ab8f8c7ef3de804ac550d05",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/323b50744b6f75d64ab8f8c7ef3de804ac550d05"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+    "html_url": "https://github.com/jquery/jquery/commit/81b89fd227be2a59db0579ffc93ddbbc19d14dc9",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/81b89fd227be2a59db0579ffc93ddbbc19d14dc9/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+        "html_url": "https://github.com/jquery/jquery/commit/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114"
+      }
+    ]
+  },
+  {
+    "sha": "a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-13T22:49:40Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-13T22:49:40Z"
+      },
+      "message": "Core: Correct support comments for String.prototype.trim",
+      "tree": {
+        "sha": "dd5cd43062ccbeccc2bbdccde432679b3da6f9db",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/dd5cd43062ccbeccc2bbdccde432679b3da6f9db"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+    "html_url": "https://github.com/jquery/jquery/commit/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a0b19f7715c30db0b7a68cb2bd0f9b88a0306114/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+        "html_url": "https://github.com/jquery/jquery/commit/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6"
+      }
+    ]
+  },
+  {
+    "sha": "483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-12T23:40:56Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-12T23:40:56Z"
+      },
+      "message": "Docs: Remove the note about consequences of excluding Sizzle from README",
+      "tree": {
+        "sha": "a06cf860153ec417444a2ac098fbdc933b2a3d48",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/a06cf860153ec417444a2ac098fbdc933b2a3d48"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+    "html_url": "https://github.com/jquery/jquery/commit/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/483ad0309c17275cd9d7d6df9b58ca7d3354d8d6/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "63f5486007221ea20262951f52f39254e5b49073",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/63f5486007221ea20262951f52f39254e5b49073",
+        "html_url": "https://github.com/jquery/jquery/commit/63f5486007221ea20262951f52f39254e5b49073"
+      }
+    ]
+  },
+  {
+    "sha": "63f5486007221ea20262951f52f39254e5b49073",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:59:38Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:59:38Z"
+      },
+      "message": "Docs: Add support comments for prefixed box-sizing",
+      "tree": {
+        "sha": "a55237184e118c0e95202a194d249c0f925409a3",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/a55237184e118c0e95202a194d249c0f925409a3"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/63f5486007221ea20262951f52f39254e5b49073",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/63f5486007221ea20262951f52f39254e5b49073",
+    "html_url": "https://github.com/jquery/jquery/commit/63f5486007221ea20262951f52f39254e5b49073",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/63f5486007221ea20262951f52f39254e5b49073/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+        "html_url": "https://github.com/jquery/jquery/commit/345a59865361d2c6c97c0ded142ba1c5bf207fa9"
+      }
+    ]
+  },
+  {
+    "sha": "345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:47:03Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:47:20Z"
+      },
+      "message": "Build: Upgrade QUnit to 1.14.0\n\n(cherry-picked from 95b21c6ec2790d0d051cdfe95d73148d7c385d68)",
+      "tree": {
+        "sha": "a819bc4a87f6ac20f7b667cdf4562166debb4b6c",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/a819bc4a87f6ac20f7b667cdf4562166debb4b6c"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+    "html_url": "https://github.com/jquery/jquery/commit/345a59865361d2c6c97c0ded142ba1c5bf207fa9",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/345a59865361d2c6c97c0ded142ba1c5bf207fa9/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+        "html_url": "https://github.com/jquery/jquery/commit/e70d0d749b63cd6f3e4764a2125002ae6f313c03"
+      }
+    ]
+  },
+  {
+    "sha": "e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:10:22Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-05T14:35:30Z"
+      },
+      "message": "Selector: update Sizzle\n\n(cherry-picked from a74ad04bc9c4c7203303b2547e94f1cc53c2a460)",
+      "tree": {
+        "sha": "6444b6f03a565cb3fd7712a86e9314b75674d45a",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/6444b6f03a565cb3fd7712a86e9314b75674d45a"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+    "html_url": "https://github.com/jquery/jquery/commit/e70d0d749b63cd6f3e4764a2125002ae6f313c03",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/e70d0d749b63cd6f3e4764a2125002ae6f313c03/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2f202b034fe53a32bd43fdfa75d69a69753f9598",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/2f202b034fe53a32bd43fdfa75d69a69753f9598",
+        "html_url": "https://github.com/jquery/jquery/commit/2f202b034fe53a32bd43fdfa75d69a69753f9598"
+      }
+    ]
+  },
+  {
+    "sha": "2f202b034fe53a32bd43fdfa75d69a69753f9598",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-02T21:17:23Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-02-02T21:20:00Z"
+      },
+      "message": "Build: Switch to explicit dependencies versions in bower.json\n\n(cherry-picked from cd4e25e991898bf07ce82fe4ab3d60c32b4a5fc9)",
+      "tree": {
+        "sha": "712a8612d24ac876156994f992e2b1e2e37a560b",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/712a8612d24ac876156994f992e2b1e2e37a560b"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/2f202b034fe53a32bd43fdfa75d69a69753f9598",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/2f202b034fe53a32bd43fdfa75d69a69753f9598",
+    "html_url": "https://github.com/jquery/jquery/commit/2f202b034fe53a32bd43fdfa75d69a69753f9598",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/2f202b034fe53a32bd43fdfa75d69a69753f9598/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+        "html_url": "https://github.com/jquery/jquery/commit/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c"
+      }
+    ]
+  },
+  {
+    "sha": "4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T21:02:30Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T21:02:30Z"
+      },
+      "message": "Build: Specify browserSets for TestSwarm directly",
+      "tree": {
+        "sha": "8dbe9e6b7fb08c8cfb751957bd472d5b91aa5ac5",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/8dbe9e6b7fb08c8cfb751957bd472d5b91aa5ac5"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+    "html_url": "https://github.com/jquery/jquery/commit/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/4c7250cf2fc3aa32f5f2aa0714e9f08eb4bc546c/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+        "html_url": "https://github.com/jquery/jquery/commit/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033"
+      }
+    ]
+  },
+  {
+    "sha": "3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T20:26:06Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T20:26:06Z"
+      },
+      "message": "Support: Add iOS6 support tests results",
+      "tree": {
+        "sha": "b01fb905ae78ea376ad55217a4f691d27e023661",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/b01fb905ae78ea376ad55217a4f691d27e023661"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+    "html_url": "https://github.com/jquery/jquery/commit/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/3c6cf3d62d00aeaa1bd6c1fd492bddd56b35d033/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+        "html_url": "https://github.com/jquery/jquery/commit/e46cabc6c2e4078cfc98124a7e7a1708939c13a1"
+      }
+    ]
+  },
+  {
+    "sha": "e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T18:10:18Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T18:10:18Z"
+      },
+      "message": "Css: Document reliableMarginRight is needed for Android 2.3",
+      "tree": {
+        "sha": "82daa866e588d5c8eeb05f89c956c75d9dc4fad6",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/82daa866e588d5c8eeb05f89c956c75d9dc4fad6"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+      "comment_count": 5
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+    "html_url": "https://github.com/jquery/jquery/commit/e46cabc6c2e4078cfc98124a7e7a1708939c13a1",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/e46cabc6c2e4078cfc98124a7e7a1708939c13a1/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+        "html_url": "https://github.com/jquery/jquery/commit/42b740bc0256ec4e2ab1a8a131f2288f797fa13b"
+      }
+    ]
+  },
+  {
+    "sha": "42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T17:55:53Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-27T17:55:53Z"
+      },
+      "message": "Tests: Blacklist beforeunload test in iOS\n\niOS has the window.onbeforeunload field but doesn't support the beforeunload\nhandler making it impossible to feature-detect the support.\n\n(cherry-picked from 988d99ad278c2c9dc16c68f86bddc4df99dcd928)\n\nFixes #14717\nCloses gh-1496",
+      "tree": {
+        "sha": "1d3071294c158dc3c260a4356e0ef50a0738c348",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/1d3071294c158dc3c260a4356e0ef50a0738c348"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+    "html_url": "https://github.com/jquery/jquery/commit/42b740bc0256ec4e2ab1a8a131f2288f797fa13b",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/42b740bc0256ec4e2ab1a8a131f2288f797fa13b/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+        "html_url": "https://github.com/jquery/jquery/commit/d2c37afdd57a4b643e638dd3cb3b83b4d6663496"
+      }
+    ]
+  },
+  {
+    "sha": "d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T03:02:20Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T03:05:05Z"
+      },
+      "message": "Build: Remove obsolete UglifyJS workaround\n\n(cherry-picked from d41fc68d9b89d39f8c71ae9f810b72798ff3e9ac)",
+      "tree": {
+        "sha": "909305c9dbef3c171b1a40a3d0ad1599f310f5da",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/909305c9dbef3c171b1a40a3d0ad1599f310f5da"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+    "html_url": "https://github.com/jquery/jquery/commit/d2c37afdd57a4b643e638dd3cb3b83b4d6663496",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/d2c37afdd57a4b643e638dd3cb3b83b4d6663496/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+        "html_url": "https://github.com/jquery/jquery/commit/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab"
+      }
+    ]
+  },
+  {
+    "sha": "d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T03:01:57Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T03:03:20Z"
+      },
+      "message": "Build: Upgrade npm devDependencies\n\n(cherry-picked from d63243d085c797e53a965620c439277284eada59)",
+      "tree": {
+        "sha": "55056e900a785f1f4538b3c722fa00a048cde3c4",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/55056e900a785f1f4538b3c722fa00a048cde3c4"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+    "html_url": "https://github.com/jquery/jquery/commit/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/d56f40d93ac768de7ec3cf1523ed8c86a09e07ab/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f4970c03903b4ed24023665d8dda61d8ea2c7567",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/f4970c03903b4ed24023665d8dda61d8ea2c7567",
+        "html_url": "https://github.com/jquery/jquery/commit/f4970c03903b4ed24023665d8dda61d8ea2c7567"
+      }
+    ]
+  },
+  {
+    "sha": "f4970c03903b4ed24023665d8dda61d8ea2c7567",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T01:49:05Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T01:49:05Z"
+      },
+      "message": "Css: Fix the reliableMarginRight test in oldIE.\n\nThis fixes an error introduced by the previous commit.",
+      "tree": {
+        "sha": "ec8713fb3b3365a5af975bcab16f5ebd6f276edf",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/ec8713fb3b3365a5af975bcab16f5ebd6f276edf"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/f4970c03903b4ed24023665d8dda61d8ea2c7567",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/f4970c03903b4ed24023665d8dda61d8ea2c7567",
+    "html_url": "https://github.com/jquery/jquery/commit/f4970c03903b4ed24023665d8dda61d8ea2c7567",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/f4970c03903b4ed24023665d8dda61d8ea2c7567/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4cbb1a0063d06ddece8982b868298e90aefa2d08",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/4cbb1a0063d06ddece8982b868298e90aefa2d08",
+        "html_url": "https://github.com/jquery/jquery/commit/4cbb1a0063d06ddece8982b868298e90aefa2d08"
+      }
+    ]
+  },
+  {
+    "sha": "4cbb1a0063d06ddece8982b868298e90aefa2d08",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T01:07:35Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-26T01:07:35Z"
+      },
+      "message": "Css: Don’t cache support.reliableMarginRight; thanks @jdalton, @timmywil\n\nFixes #14731",
+      "tree": {
+        "sha": "acfccc58ec16d523750868a619b6c24e36b38bce",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/acfccc58ec16d523750868a619b6c24e36b38bce"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/4cbb1a0063d06ddece8982b868298e90aefa2d08",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/4cbb1a0063d06ddece8982b868298e90aefa2d08",
+    "html_url": "https://github.com/jquery/jquery/commit/4cbb1a0063d06ddece8982b868298e90aefa2d08",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/4cbb1a0063d06ddece8982b868298e90aefa2d08/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "41523ae1d35b9023e9479b58c0fbe47269746411",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/41523ae1d35b9023e9479b58c0fbe47269746411",
+        "html_url": "https://github.com/jquery/jquery/commit/41523ae1d35b9023e9479b58c0fbe47269746411"
+      }
+    ]
+  },
+  {
+    "sha": "41523ae1d35b9023e9479b58c0fbe47269746411",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T21:07:07Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T21:07:07Z"
+      },
+      "message": "Updating the 1.x-master version to 1.11.1pre.",
+      "tree": {
+        "sha": "c6bbfe1a666f5bb45c5e1126cafcd7ab07b0d5a5",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c6bbfe1a666f5bb45c5e1126cafcd7ab07b0d5a5"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/41523ae1d35b9023e9479b58c0fbe47269746411",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/41523ae1d35b9023e9479b58c0fbe47269746411",
+    "html_url": "https://github.com/jquery/jquery/commit/41523ae1d35b9023e9479b58c0fbe47269746411",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/41523ae1d35b9023e9479b58c0fbe47269746411/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+        "html_url": "https://github.com/jquery/jquery/commit/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18"
+      }
+    ]
+  },
+  {
+    "sha": "5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T20:45:23Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2014-01-23T20:55:54Z"
+      },
+      "message": "Release: Instantiate a zip archiver, run archivers async",
+      "tree": {
+        "sha": "f905fc6e6fc7d251e6c017b00fc54ac74ef24096",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/f905fc6e6fc7d251e6c017b00fc54ac74ef24096"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+    "html_url": "https://github.com/jquery/jquery/commit/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/5294ddf68fbb68e6b71ff61d3be0a19dc1aa3f18/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+        "html_url": "https://github.com/jquery/jquery/commit/f3452912099e5d2fdaa212e88ffe7e6d59f6da42"
+      }
+    ]
+  },
+  {
+    "sha": "f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-22T23:51:20Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2014-01-23T19:14:44Z"
+      },
+      "message": "Manipulation: Use textarea for missing IE defaultValue check\n\nIE11 fixed the checkbox defaultValue issue but not textarea. Rather than\ncreating a new detect name I'm reusing the old one to protect anyone who\nis unwisely using this externally. Re-fixing the defaultValue when it\ndoesn't need to be done is not a problem, so leave that code for IE11.\n\nFixes #14716\nCloses gh-1495",
+      "tree": {
+        "sha": "4d8887bf02a653f484c3eac893c405d6af49a924",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/4d8887bf02a653f484c3eac893c405d6af49a924"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+    "html_url": "https://github.com/jquery/jquery/commit/f3452912099e5d2fdaa212e88ffe7e6d59f6da42",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/f3452912099e5d2fdaa212e88ffe7e6d59f6da42/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "49b03cf702a9b302268d51930a4ab0246c4feab3",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/49b03cf702a9b302268d51930a4ab0246c4feab3",
+        "html_url": "https://github.com/jquery/jquery/commit/49b03cf702a9b302268d51930a4ab0246c4feab3"
+      }
+    ]
+  },
+  {
+    "sha": "49b03cf702a9b302268d51930a4ab0246c4feab3",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T21:33:22Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T21:33:22Z"
+      },
+      "message": "Tests: Fix appendChecked support value for Safari 5.1",
+      "tree": {
+        "sha": "670cf041718c07eeef7ac5dc22dce02e235fc653",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/670cf041718c07eeef7ac5dc22dce02e235fc653"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/49b03cf702a9b302268d51930a4ab0246c4feab3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/49b03cf702a9b302268d51930a4ab0246c4feab3",
+    "html_url": "https://github.com/jquery/jquery/commit/49b03cf702a9b302268d51930a4ab0246c4feab3",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/49b03cf702a9b302268d51930a4ab0246c4feab3/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "838bbe6d43422e364674c75b06e178a557fbb2be",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/838bbe6d43422e364674c75b06e178a557fbb2be",
+        "html_url": "https://github.com/jquery/jquery/commit/838bbe6d43422e364674c75b06e178a557fbb2be"
+      }
+    ]
+  },
+  {
+    "sha": "838bbe6d43422e364674c75b06e178a557fbb2be",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:49:53Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:49:53Z"
+      },
+      "message": "Tests: fix Safari userAgent detection\n\n(cherry-picked from 3f3f458974fe0bdccfe9042c9503fd2d03e2f6ff)",
+      "tree": {
+        "sha": "64f6836438dc284b57b968df5d57f741e8e17142",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/64f6836438dc284b57b968df5d57f741e8e17142"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/838bbe6d43422e364674c75b06e178a557fbb2be",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/838bbe6d43422e364674c75b06e178a557fbb2be",
+    "html_url": "https://github.com/jquery/jquery/commit/838bbe6d43422e364674c75b06e178a557fbb2be",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/838bbe6d43422e364674c75b06e178a557fbb2be/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+        "html_url": "https://github.com/jquery/jquery/commit/8366f60c7e75a22f0b82da1f182da81c59d3eabd"
+      }
+    ]
+  },
+  {
+    "sha": "8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:35:31Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-22T20:35:31Z"
+      },
+      "message": "Support: Add expected support results for Safari 7 & IE11",
+      "tree": {
+        "sha": "6d193d09d855155483c00637f734e38a23a8c798",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/6d193d09d855155483c00637f734e38a23a8c798"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+    "html_url": "https://github.com/jquery/jquery/commit/8366f60c7e75a22f0b82da1f182da81c59d3eabd",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/8366f60c7e75a22f0b82da1f182da81c59d3eabd/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+        "html_url": "https://github.com/jquery/jquery/commit/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3"
+      }
+    ]
+  },
+  {
+    "sha": "05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+    "commit": {
+      "author": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-21T11:02:09Z"
+      },
+      "committer": {
+        "name": "Michał Gołębiowski",
+        "email": "m.goleb@gmail.com",
+        "date": "2014-01-21T11:16:10Z"
+      },
+      "message": "Tests: Blacklist one effects test in Chrome 31\n\nChrome 31 reports incorrect offsetWidth on a table cell with fixed width.\nThis is fixed in Chrome 32 so let’s just skip the failing test in Chrome 31.\nSee https://code.google.com/p/chromium/issues/detail?id=290399\n\n(cherry-picked from c11becbb692f7707443eb2582543dfe96e8319e6)",
+      "tree": {
+        "sha": "71720faaf080c3299d993919e2785c2c57d6a8ca",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/71720faaf080c3299d993919e2785c2c57d6a8ca"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+    "html_url": "https://github.com/jquery/jquery/commit/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/05c108ecbd72d6df36f7ae2ee934f3c3fb2b5db3/comments",
+    "author": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mzgol",
+      "id": 1758366,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1758366",
+      "gravatar_id": "72ea0622f7b690ed82f5261b16ff8cef",
+      "url": "https://api.github.com/users/mzgol",
+      "html_url": "https://github.com/mzgol",
+      "followers_url": "https://api.github.com/users/mzgol/followers",
+      "following_url": "https://api.github.com/users/mzgol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mzgol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mzgol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mzgol/subscriptions",
+      "organizations_url": "https://api.github.com/users/mzgol/orgs",
+      "repos_url": "https://api.github.com/users/mzgol/repos",
+      "events_url": "https://api.github.com/users/mzgol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mzgol/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0765822b31a64e15bc88bd5f98e01b8c67b93822",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/0765822b31a64e15bc88bd5f98e01b8c67b93822",
+        "html_url": "https://github.com/jquery/jquery/commit/0765822b31a64e15bc88bd5f98e01b8c67b93822"
+      }
+    ]
+  },
+  {
+    "sha": "0765822b31a64e15bc88bd5f98e01b8c67b93822",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-17T05:38:56Z"
+      },
+      "committer": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2014-01-17T06:09:32Z"
+      },
+      "message": "Traversing: Check all pairwise element combinations for .find( els )\n(cherry picked from commit 391c21b15d769fac1c37631b28c0226f57a59796)\n\nRef b8d0d54a3c4960794a1b492957abeb56eddd1e48\nFixes #14701",
+      "tree": {
+        "sha": "f0ba22d990a5f00de6e791c92c9bb35f3b7cb257",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/f0ba22d990a5f00de6e791c92c9bb35f3b7cb257"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/0765822b31a64e15bc88bd5f98e01b8c67b93822",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/0765822b31a64e15bc88bd5f98e01b8c67b93822",
+    "html_url": "https://github.com/jquery/jquery/commit/0765822b31a64e15bc88bd5f98e01b8c67b93822",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/0765822b31a64e15bc88bd5f98e01b8c67b93822/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e51a85bd736c764d82739056892465ec85e6aafb",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/e51a85bd736c764d82739056892465ec85e6aafb",
+        "html_url": "https://github.com/jquery/jquery/commit/e51a85bd736c764d82739056892465ec85e6aafb"
+      }
+    ]
+  },
+  {
+    "sha": "e51a85bd736c764d82739056892465ec85e6aafb",
+    "commit": {
+      "author": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T20:25:51Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T20:25:51Z"
+      },
+      "message": "Docs: Update authors file",
+      "tree": {
+        "sha": "b3d4bbc2da0898be5c12f835dca53784c63f6b71",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/b3d4bbc2da0898be5c12f835dca53784c63f6b71"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/e51a85bd736c764d82739056892465ec85e6aafb",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/e51a85bd736c764d82739056892465ec85e6aafb",
+    "html_url": "https://github.com/jquery/jquery/commit/e51a85bd736c764d82739056892465ec85e6aafb",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/e51a85bd736c764d82739056892465ec85e6aafb/comments",
+    "author": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+        "html_url": "https://github.com/jquery/jquery/commit/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81"
+      }
+    ]
+  },
+  {
+    "sha": "fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+    "commit": {
+      "author": {
+        "name": "Jörn Zaefferer",
+        "email": "joern.zaefferer@gmail.com",
+        "date": "2014-01-10T12:45:01Z"
+      },
+      "committer": {
+        "name": "Oleg",
+        "email": "markelog@gmail.com",
+        "date": "2014-01-16T20:20:14Z"
+      },
+      "message": "Release: Publish to npm\n\n(cherry-picked from 20ea8071b44c23e7915300eacc9ed958fbe4eaf5)",
+      "tree": {
+        "sha": "9027b6e75bd72151741cd9e064699803418b0835",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/9027b6e75bd72151741cd9e064699803418b0835"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+    "html_url": "https://github.com/jquery/jquery/commit/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/fd148ca7908ed23011f21e0c4b2f2c16a79b8a81/comments",
+    "author": {
+      "login": "jzaefferer",
+      "id": 52585,
+      "avatar_url": "https://avatars.githubusercontent.com/u/52585",
+      "gravatar_id": "a9d4d2558b560b0ef168ced0f6c5198c",
+      "url": "https://api.github.com/users/jzaefferer",
+      "html_url": "https://github.com/jzaefferer",
+      "followers_url": "https://api.github.com/users/jzaefferer/followers",
+      "following_url": "https://api.github.com/users/jzaefferer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jzaefferer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jzaefferer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jzaefferer/subscriptions",
+      "organizations_url": "https://api.github.com/users/jzaefferer/orgs",
+      "repos_url": "https://api.github.com/users/jzaefferer/repos",
+      "events_url": "https://api.github.com/users/jzaefferer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jzaefferer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "markelog",
+      "id": 945528,
+      "avatar_url": "https://avatars.githubusercontent.com/u/945528",
+      "gravatar_id": "6ca5873f4a2dca888b1bfa7096721025",
+      "url": "https://api.github.com/users/markelog",
+      "html_url": "https://github.com/markelog",
+      "followers_url": "https://api.github.com/users/markelog/followers",
+      "following_url": "https://api.github.com/users/markelog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markelog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markelog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markelog/subscriptions",
+      "organizations_url": "https://api.github.com/users/markelog/orgs",
+      "repos_url": "https://api.github.com/users/markelog/repos",
+      "events_url": "https://api.github.com/users/markelog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markelog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2b98a2636bb4dfbaf25a2358d2f71b8244c5aee1",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/2b98a2636bb4dfbaf25a2358d2f71b8244c5aee1",
+        "html_url": "https://github.com/jquery/jquery/commit/2b98a2636bb4dfbaf25a2358d2f71b8244c5aee1"
+      }
+    ]
+  }
+]

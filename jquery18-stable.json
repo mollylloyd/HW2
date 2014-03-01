@@ -1,0 +1,2102 @@
+[
+  {
+    "sha": "4b2e9799512135f817c9a54ed3e8f0e006a489c2",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:19:15Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:22:09Z"
+      },
+      "message": "Tagging the 1.8.3+1 release; build updates only. Close gh-1102.\n\nThere are no code changes from the 1.8.3 tag. This addresses issues in building the library that are caused by incorrect versions in the package.json file.\n\nThanks @damienklinnert for pointing out this problem!",
+      "tree": {
+        "sha": "41eb483588223b26940ab8184452927b8cb17e12",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/41eb483588223b26940ab8184452927b8cb17e12"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/4b2e9799512135f817c9a54ed3e8f0e006a489c2",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/4b2e9799512135f817c9a54ed3e8f0e006a489c2",
+    "html_url": "https://github.com/jquery/jquery/commit/4b2e9799512135f817c9a54ed3e8f0e006a489c2",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/4b2e9799512135f817c9a54ed3e8f0e006a489c2/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+        "html_url": "https://github.com/jquery/jquery/commit/8b5513770a9826a29a2c0d40bf0e02525646cfd1"
+      }
+    ]
+  },
+  {
+    "sha": "8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:17:23Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:17:23Z"
+      },
+      "message": "Suppress warnings given by newer jshint.",
+      "tree": {
+        "sha": "ea6ab2fed15adb1072cdc520296d259303422bad",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/ea6ab2fed15adb1072cdc520296d259303422bad"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+      "comment_count": 5
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+    "html_url": "https://github.com/jquery/jquery/commit/8b5513770a9826a29a2c0d40bf0e02525646cfd1",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/8b5513770a9826a29a2c0d40bf0e02525646cfd1/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "65889d079584bf229bd68b577a946a135f3014ef",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/65889d079584bf229bd68b577a946a135f3014ef",
+        "html_url": "https://github.com/jquery/jquery/commit/65889d079584bf229bd68b577a946a135f3014ef"
+      }
+    ]
+  },
+  {
+    "sha": "65889d079584bf229bd68b577a946a135f3014ef",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:04:24Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2013-01-04T15:04:24Z"
+      },
+      "message": "Fix dependencies so archived 1.8.3 will build.",
+      "tree": {
+        "sha": "cb856e32ed66b0f8e8875c9a0f57513e420277c2",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/cb856e32ed66b0f8e8875c9a0f57513e420277c2"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/65889d079584bf229bd68b577a946a135f3014ef",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/65889d079584bf229bd68b577a946a135f3014ef",
+    "html_url": "https://github.com/jquery/jquery/commit/65889d079584bf229bd68b577a946a135f3014ef",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/65889d079584bf229bd68b577a946a135f3014ef/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+        "html_url": "https://github.com/jquery/jquery/commit/b5a9378bc7390d751d921e2b5c9bd119b1733b6f"
+      }
+    ]
+  },
+  {
+    "sha": "b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-11-13T13:20:43Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-11-13T13:20:43Z"
+      },
+      "message": "Updating the source version to 1.8.4pre",
+      "tree": {
+        "sha": "06cb18dc4d116c178ddda9b65c58acfc8c78ef2a",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/06cb18dc4d116c178ddda9b65c58acfc8c78ef2a"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+    "html_url": "https://github.com/jquery/jquery/commit/b5a9378bc7390d751d921e2b5c9bd119b1733b6f",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/b5a9378bc7390d751d921e2b5c9bd119b1733b6f/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+        "html_url": "https://github.com/jquery/jquery/commit/ab409d14bc6db42b4af3ba753be1b55fe8f897d8"
+      }
+    ]
+  },
+  {
+    "sha": "ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-11-13T13:20:31Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-11-13T13:20:31Z"
+      },
+      "message": "Tagging the 1.8.3 release.",
+      "tree": {
+        "sha": "3409ab389d2ea5e6035050c42448537818cec1e0",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/3409ab389d2ea5e6035050c42448537818cec1e0"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+    "html_url": "https://github.com/jquery/jquery/commit/ab409d14bc6db42b4af3ba753be1b55fe8f897d8",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/ab409d14bc6db42b4af3ba753be1b55fe8f897d8/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+        "html_url": "https://github.com/jquery/jquery/commit/70f662bac5de1ed76021e31387bd4d3aa2e41f66"
+      }
+    ]
+  },
+  {
+    "sha": "70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+    "commit": {
+      "author": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T03:29:55Z"
+      },
+      "committer": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T03:32:31Z"
+      },
+      "message": "Unroll the ( || ) in the math - Fixes #12497 - Thanks @lukemelia @curiousdannii - Closes gh-1019\n(cherry picked from commit 877306738f931a711c41d907e69fc8930f985830)",
+      "tree": {
+        "sha": "36ceffca51fe0cd6f8027093c5ffe7230f12f7b2",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/36ceffca51fe0cd6f8027093c5ffe7230f12f7b2"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+    "html_url": "https://github.com/jquery/jquery/commit/70f662bac5de1ed76021e31387bd4d3aa2e41f66",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/70f662bac5de1ed76021e31387bd4d3aa2e41f66/comments",
+    "author": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "08894dccab5f3e37152b1f2c4e83acf561120a33",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/08894dccab5f3e37152b1f2c4e83acf561120a33",
+        "html_url": "https://github.com/jquery/jquery/commit/08894dccab5f3e37152b1f2c4e83acf561120a33"
+      }
+    ]
+  },
+  {
+    "sha": "08894dccab5f3e37152b1f2c4e83acf561120a33",
+    "commit": {
+      "author": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T03:11:16Z"
+      },
+      "committer": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T03:12:00Z"
+      },
+      "message": "Rewriting unit test to be less sticky based on time issues\n(cherry picked from commit 31a19a80bf216f8bf67e8be19d61355b310adfac)",
+      "tree": {
+        "sha": "04d221da85448eabe152b8d460be0a77334b7f83",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/04d221da85448eabe152b8d460be0a77334b7f83"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/08894dccab5f3e37152b1f2c4e83acf561120a33",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/08894dccab5f3e37152b1f2c4e83acf561120a33",
+    "html_url": "https://github.com/jquery/jquery/commit/08894dccab5f3e37152b1f2c4e83acf561120a33",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/08894dccab5f3e37152b1f2c4e83acf561120a33/comments",
+    "author": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "986d0f598c263c1a6d576a4306c3efa6587da702",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/986d0f598c263c1a6d576a4306c3efa6587da702",
+        "html_url": "https://github.com/jquery/jquery/commit/986d0f598c263c1a6d576a4306c3efa6587da702"
+      }
+    ]
+  },
+  {
+    "sha": "986d0f598c263c1a6d576a4306c3efa6587da702",
+    "commit": {
+      "author": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T02:45:03Z"
+      },
+      "committer": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T02:45:14Z"
+      },
+      "message": "Fixing units\n(cherry picked from commit 74490f862d9b926cd38eba8153ed3cda2a1a7716)",
+      "tree": {
+        "sha": "bebf3198082c4c69a5233cad256bb6d492138952",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/bebf3198082c4c69a5233cad256bb6d492138952"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/986d0f598c263c1a6d576a4306c3efa6587da702",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/986d0f598c263c1a6d576a4306c3efa6587da702",
+    "html_url": "https://github.com/jquery/jquery/commit/986d0f598c263c1a6d576a4306c3efa6587da702",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/986d0f598c263c1a6d576a4306c3efa6587da702/comments",
+    "author": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bee4d0307216292bb0e69b7431d054cf86bdfc43",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/bee4d0307216292bb0e69b7431d054cf86bdfc43",
+        "html_url": "https://github.com/jquery/jquery/commit/bee4d0307216292bb0e69b7431d054cf86bdfc43"
+      }
+    ]
+  },
+  {
+    "sha": "bee4d0307216292bb0e69b7431d054cf86bdfc43",
+    "commit": {
+      "author": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T01:23:24Z"
+      },
+      "committer": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T01:25:28Z"
+      },
+      "message": "Keep track of a hiding state for toggle based animations - Fixes #8685\n\nCloses gh-1018\n(cherry picked from commit c45f6095f2d58a9fefd6bc788e50140acc7cf0c4)\n\nConflicts:\n\n\tsrc/effects.js",
+      "tree": {
+        "sha": "2ccea4870b90cffc0cad05ec0a67d37ecdb779d8",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/2ccea4870b90cffc0cad05ec0a67d37ecdb779d8"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/bee4d0307216292bb0e69b7431d054cf86bdfc43",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/bee4d0307216292bb0e69b7431d054cf86bdfc43",
+    "html_url": "https://github.com/jquery/jquery/commit/bee4d0307216292bb0e69b7431d054cf86bdfc43",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/bee4d0307216292bb0e69b7431d054cf86bdfc43/comments",
+    "author": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "c56732fd36d45c7c7a95c5f893597c2b755323ad",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/c56732fd36d45c7c7a95c5f893597c2b755323ad",
+        "html_url": "https://github.com/jquery/jquery/commit/c56732fd36d45c7c7a95c5f893597c2b755323ad"
+      }
+    ]
+  },
+  {
+    "sha": "c56732fd36d45c7c7a95c5f893597c2b755323ad",
+    "commit": {
+      "author": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T01:22:14Z"
+      },
+      "committer": {
+        "name": "Corey Frang",
+        "email": "gnarf@gnarf.net",
+        "date": "2012-11-08T01:22:59Z"
+      },
+      "message": "Ensure each tick gets it's own fxNow - Fixes #12837 - Thanks @chadparry\n\nCloses gh-1022\nCloses gh-1021\n(cherry picked from commit 781a5c0b78a029b079aae970200d3e4edf543349)",
+      "tree": {
+        "sha": "96eba2b7d05be8aae6436bdb5a9519427331d6ed",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/96eba2b7d05be8aae6436bdb5a9519427331d6ed"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/c56732fd36d45c7c7a95c5f893597c2b755323ad",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/c56732fd36d45c7c7a95c5f893597c2b755323ad",
+    "html_url": "https://github.com/jquery/jquery/commit/c56732fd36d45c7c7a95c5f893597c2b755323ad",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/c56732fd36d45c7c7a95c5f893597c2b755323ad/comments",
+    "author": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "gnarf",
+      "id": 549355,
+      "avatar_url": "https://avatars.githubusercontent.com/u/549355",
+      "gravatar_id": "de31e75f0b6f31344cc18e2a15c2f1c9",
+      "url": "https://api.github.com/users/gnarf",
+      "html_url": "https://github.com/gnarf",
+      "followers_url": "https://api.github.com/users/gnarf/followers",
+      "following_url": "https://api.github.com/users/gnarf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gnarf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gnarf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gnarf/subscriptions",
+      "organizations_url": "https://api.github.com/users/gnarf/orgs",
+      "repos_url": "https://api.github.com/users/gnarf/repos",
+      "events_url": "https://api.github.com/users/gnarf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gnarf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+        "html_url": "https://github.com/jquery/jquery/commit/8e76cb7353d1941cdbade94c9b6308b6a0bf171c"
+      }
+    ]
+  },
+  {
+    "sha": "8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-24T18:34:24Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-24T18:48:56Z"
+      },
+      "message": "Update build script.",
+      "tree": {
+        "sha": "246d283474b0886ece134e6820f840eb59a20e8d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/246d283474b0886ece134e6820f840eb59a20e8d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+    "html_url": "https://github.com/jquery/jquery/commit/8e76cb7353d1941cdbade94c9b6308b6a0bf171c",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/8e76cb7353d1941cdbade94c9b6308b6a0bf171c/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2af1538605eee596510766e38b79b36e129a650a",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/2af1538605eee596510766e38b79b36e129a650a",
+        "html_url": "https://github.com/jquery/jquery/commit/2af1538605eee596510766e38b79b36e129a650a"
+      }
+    ]
+  },
+  {
+    "sha": "2af1538605eee596510766e38b79b36e129a650a",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-24T18:33:08Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-24T18:33:08Z"
+      },
+      "message": "Make compatible with latest JSHint.",
+      "tree": {
+        "sha": "0f091ea13e9cdae14edba6c348204c251bcb72a8",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/0f091ea13e9cdae14edba6c348204c251bcb72a8"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/2af1538605eee596510766e38b79b36e129a650a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/2af1538605eee596510766e38b79b36e129a650a",
+    "html_url": "https://github.com/jquery/jquery/commit/2af1538605eee596510766e38b79b36e129a650a",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/2af1538605eee596510766e38b79b36e129a650a/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+        "html_url": "https://github.com/jquery/jquery/commit/cb67571dd2ee4aa3e2d9986580740696bac72d5a"
+      }
+    ]
+  },
+  {
+    "sha": "cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-15T14:40:32Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-15T14:40:32Z"
+      },
+      "message": "Sizzle: Fix :focus selector with elements that have a tabIndex !== -1",
+      "tree": {
+        "sha": "776e9c97e1aa352cc36efa810905355fac15ad50",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/776e9c97e1aa352cc36efa810905355fac15ad50"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+    "html_url": "https://github.com/jquery/jquery/commit/cb67571dd2ee4aa3e2d9986580740696bac72d5a",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/cb67571dd2ee4aa3e2d9986580740696bac72d5a/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+        "html_url": "https://github.com/jquery/jquery/commit/1cda1120e3fee605e456a8258bd0b26ca1d00c8e"
+      }
+    ]
+  },
+  {
+    "sha": "1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+    "commit": {
+      "author": {
+        "name": "Mike Sherov",
+        "email": "mike.sherov@gmail.com",
+        "date": "2012-10-15T13:38:27Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-15T13:38:27Z"
+      },
+      "message": "Remove the Makefile and replace the submodule update with a grunt task. Thanks to @ryanneufeld. Closes gh-953.",
+      "tree": {
+        "sha": "97ba4afce96054b7f1b5420a50059d4670c4a71f",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/97ba4afce96054b7f1b5420a50059d4670c4a71f"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+    "html_url": "https://github.com/jquery/jquery/commit/1cda1120e3fee605e456a8258bd0b26ca1d00c8e",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/1cda1120e3fee605e456a8258bd0b26ca1d00c8e/comments",
+    "author": {
+      "login": "mikesherov",
+      "id": 364532,
+      "avatar_url": "https://avatars.githubusercontent.com/u/364532",
+      "gravatar_id": "a123410cfb9ea6510294a295bb548530",
+      "url": "https://api.github.com/users/mikesherov",
+      "html_url": "https://github.com/mikesherov",
+      "followers_url": "https://api.github.com/users/mikesherov/followers",
+      "following_url": "https://api.github.com/users/mikesherov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikesherov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikesherov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikesherov/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikesherov/orgs",
+      "repos_url": "https://api.github.com/users/mikesherov/repos",
+      "events_url": "https://api.github.com/users/mikesherov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikesherov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+        "html_url": "https://github.com/jquery/jquery/commit/077989e8c0c56ed059bffeb504cfd201e6c5c9cf"
+      }
+    ]
+  },
+  {
+    "sha": "077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-14T16:07:05Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-14T16:07:05Z"
+      },
+      "message": "Update Sizzle: Fixes #12606, #12671, #12672.",
+      "tree": {
+        "sha": "37b9bf5323f5c4b1b76199a72ea36e0dee2596e2",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/37b9bf5323f5c4b1b76199a72ea36e0dee2596e2"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+    "html_url": "https://github.com/jquery/jquery/commit/077989e8c0c56ed059bffeb504cfd201e6c5c9cf",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/077989e8c0c56ed059bffeb504cfd201e6c5c9cf/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1450305402ee8f36825fd5fa44df913a3be2f4c8",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/1450305402ee8f36825fd5fa44df913a3be2f4c8",
+        "html_url": "https://github.com/jquery/jquery/commit/1450305402ee8f36825fd5fa44df913a3be2f4c8"
+      }
+    ]
+  },
+  {
+    "sha": "1450305402ee8f36825fd5fa44df913a3be2f4c8",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-11T14:17:24Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-11T14:25:43Z"
+      },
+      "message": "Use the correct escape for BOM; add build code to detect non-ASCII.",
+      "tree": {
+        "sha": "f718d9bc601d827a946f8560369336819a6f1c97",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/f718d9bc601d827a946f8560369336819a6f1c97"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/1450305402ee8f36825fd5fa44df913a3be2f4c8",
+      "comment_count": 3
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/1450305402ee8f36825fd5fa44df913a3be2f4c8",
+    "html_url": "https://github.com/jquery/jquery/commit/1450305402ee8f36825fd5fa44df913a3be2f4c8",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/1450305402ee8f36825fd5fa44df913a3be2f4c8/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+        "html_url": "https://github.com/jquery/jquery/commit/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8"
+      }
+    ]
+  },
+  {
+    "sha": "798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-11T13:38:44Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-11T13:39:21Z"
+      },
+      "message": "Use Uglify's ascii_only to avoid converting UTF-8 escapes.\n\nThanks @curiousdannii!",
+      "tree": {
+        "sha": "4df3d752d8cddcc1c2bbfeb53fdea3e5b109c0e4",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/4df3d752d8cddcc1c2bbfeb53fdea3e5b109c0e4"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+    "html_url": "https://github.com/jquery/jquery/commit/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/798a7a7ea2cb612411b3d9fd87e8b0e894b27de8/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+        "html_url": "https://github.com/jquery/jquery/commit/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4"
+      }
+    ]
+  },
+  {
+    "sha": "a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T17:00:45Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T17:00:45Z"
+      },
+      "message": "Fix #12690. Avoid use of UTF-8 chars in final files.",
+      "tree": {
+        "sha": "6e1d43f2faf6b732f0d1347496f28be8a709a398",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/6e1d43f2faf6b732f0d1347496f28be8a709a398"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+      "comment_count": 10
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+    "html_url": "https://github.com/jquery/jquery/commit/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/a60fed4dec85e7b0c3b6fc5741b14cee1552afc4/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "5a21150c9b633dbef134fd540762b4d88ebc5f71",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/5a21150c9b633dbef134fd540762b4d88ebc5f71",
+        "html_url": "https://github.com/jquery/jquery/commit/5a21150c9b633dbef134fd540762b4d88ebc5f71"
+      }
+    ]
+  },
+  {
+    "sha": "5a21150c9b633dbef134fd540762b4d88ebc5f71",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T00:42:33Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T00:42:33Z"
+      },
+      "message": "Skip jQuery.sub() test since IE6 can't handle it.",
+      "tree": {
+        "sha": "c4e38d250dab3d0836513e03ab200cfb12b2c269",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c4e38d250dab3d0836513e03ab200cfb12b2c269"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/5a21150c9b633dbef134fd540762b4d88ebc5f71",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/5a21150c9b633dbef134fd540762b4d88ebc5f71",
+    "html_url": "https://github.com/jquery/jquery/commit/5a21150c9b633dbef134fd540762b4d88ebc5f71",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/5a21150c9b633dbef134fd540762b4d88ebc5f71/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+        "html_url": "https://github.com/jquery/jquery/commit/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860"
+      }
+    ]
+  },
+  {
+    "sha": "fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T00:06:02Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T00:06:47Z"
+      },
+      "message": "Break big-html check into its own test for IE6.",
+      "tree": {
+        "sha": "da708c2249a2db42f9da0970badb9a550c8894a1",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/da708c2249a2db42f9da0970badb9a550c8894a1"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+    "html_url": "https://github.com/jquery/jquery/commit/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/fde2e44f864c1bb4b8476ccdd7cd16b5c0115860/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "7e8b854152beead5ba1c0e9f8683586ee937f72d",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/7e8b854152beead5ba1c0e9f8683586ee937f72d",
+        "html_url": "https://github.com/jquery/jquery/commit/7e8b854152beead5ba1c0e9f8683586ee937f72d"
+      }
+    ]
+  },
+  {
+    "sha": "7e8b854152beead5ba1c0e9f8683586ee937f72d",
+    "commit": {
+      "author": {
+        "name": "Timo Tijhof",
+        "email": "krinklemail@gmail.com",
+        "date": "2012-10-09T23:48:37Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-10T00:06:31Z"
+      },
+      "message": "Test: Clean up and fix misc issues\n\n* Clean up testinit and testrunner\n\n* Uncomment isLocal (at least make sure it is declared)\n\n* Rephrase environment assertions to make sense if one reads\n  them when they pass.\n\n* Optimise an expensive loop that might be the cause of this\n  in IE6: http://cl.ly/image/3f20053m112n",
+      "tree": {
+        "sha": "5203ec91ff71aeb0448ba61d04df90ff1b0b326f",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/5203ec91ff71aeb0448ba61d04df90ff1b0b326f"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/7e8b854152beead5ba1c0e9f8683586ee937f72d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/7e8b854152beead5ba1c0e9f8683586ee937f72d",
+    "html_url": "https://github.com/jquery/jquery/commit/7e8b854152beead5ba1c0e9f8683586ee937f72d",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/7e8b854152beead5ba1c0e9f8683586ee937f72d/comments",
+    "author": {
+      "login": "Krinkle",
+      "id": 156867,
+      "avatar_url": "https://avatars.githubusercontent.com/u/156867",
+      "gravatar_id": "49061e8503ca321a8045c9065963a8c6",
+      "url": "https://api.github.com/users/Krinkle",
+      "html_url": "https://github.com/Krinkle",
+      "followers_url": "https://api.github.com/users/Krinkle/followers",
+      "following_url": "https://api.github.com/users/Krinkle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Krinkle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Krinkle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Krinkle/subscriptions",
+      "organizations_url": "https://api.github.com/users/Krinkle/orgs",
+      "repos_url": "https://api.github.com/users/Krinkle/repos",
+      "events_url": "https://api.github.com/users/Krinkle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Krinkle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "bb38f706463a4d7598505b2f7adf3ed83935f298",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/bb38f706463a4d7598505b2f7adf3ed83935f298",
+        "html_url": "https://github.com/jquery/jquery/commit/bb38f706463a4d7598505b2f7adf3ed83935f298"
+      }
+    ]
+  },
+  {
+    "sha": "bb38f706463a4d7598505b2f7adf3ed83935f298",
+    "commit": {
+      "author": {
+        "name": "jaubourg",
+        "email": "j@ubourg.net",
+        "date": "2012-10-06T20:00:43Z"
+      },
+      "committer": {
+        "name": "jaubourg",
+        "email": "j@ubourg.net",
+        "date": "2012-10-06T20:00:43Z"
+      },
+      "message": "Do not iterate over functions. Fixes #12665. Unit tests added. Thanks to @kselden for finding the bug.",
+      "tree": {
+        "sha": "de9074d730eadbe5bf71138aef2ccb3765e5d55c",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/de9074d730eadbe5bf71138aef2ccb3765e5d55c"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/bb38f706463a4d7598505b2f7adf3ed83935f298",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/bb38f706463a4d7598505b2f7adf3ed83935f298",
+    "html_url": "https://github.com/jquery/jquery/commit/bb38f706463a4d7598505b2f7adf3ed83935f298",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/bb38f706463a4d7598505b2f7adf3ed83935f298/comments",
+    "author": {
+      "login": "jaubourg",
+      "id": 160354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/160354",
+      "gravatar_id": "3132902b0c2bd9b95eced29c649263a1",
+      "url": "https://api.github.com/users/jaubourg",
+      "html_url": "https://github.com/jaubourg",
+      "followers_url": "https://api.github.com/users/jaubourg/followers",
+      "following_url": "https://api.github.com/users/jaubourg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaubourg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaubourg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaubourg/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaubourg/orgs",
+      "repos_url": "https://api.github.com/users/jaubourg/repos",
+      "events_url": "https://api.github.com/users/jaubourg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaubourg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jaubourg",
+      "id": 160354,
+      "avatar_url": "https://avatars.githubusercontent.com/u/160354",
+      "gravatar_id": "3132902b0c2bd9b95eced29c649263a1",
+      "url": "https://api.github.com/users/jaubourg",
+      "html_url": "https://github.com/jaubourg",
+      "followers_url": "https://api.github.com/users/jaubourg/followers",
+      "following_url": "https://api.github.com/users/jaubourg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaubourg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaubourg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaubourg/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaubourg/orgs",
+      "repos_url": "https://api.github.com/users/jaubourg/repos",
+      "events_url": "https://api.github.com/users/jaubourg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaubourg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+        "html_url": "https://github.com/jquery/jquery/commit/cfe95a864330c45c2bf93ca4a89d84c01f5acff5"
+      }
+    ]
+  },
+  {
+    "sha": "cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2012-10-06T00:31:43Z"
+      },
+      "committer": {
+        "name": "Rick Waldron",
+        "email": "waldron.rick@gmail.com",
+        "date": "2012-10-06T00:31:43Z"
+      },
+      "message": "fix failure from bad markup leaving an element behind. Closes gh-946",
+      "tree": {
+        "sha": "2d96ca59a34802ebd17bea6a1b69bf73e91341a1",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/2d96ca59a34802ebd17bea6a1b69bf73e91341a1"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+    "html_url": "https://github.com/jquery/jquery/commit/cfe95a864330c45c2bf93ca4a89d84c01f5acff5",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/cfe95a864330c45c2bf93ca4a89d84c01f5acff5/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwaldron",
+      "id": 27985,
+      "avatar_url": "https://avatars.githubusercontent.com/u/27985",
+      "gravatar_id": "36c697d974542aadaee06a0f39cb1437",
+      "url": "https://api.github.com/users/rwaldron",
+      "html_url": "https://github.com/rwaldron",
+      "followers_url": "https://api.github.com/users/rwaldron/followers",
+      "following_url": "https://api.github.com/users/rwaldron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwaldron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwaldron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwaldron/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwaldron/orgs",
+      "repos_url": "https://api.github.com/users/rwaldron/repos",
+      "events_url": "https://api.github.com/users/rwaldron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwaldron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "71c17257c71303e5a92faeebe0d760db22e88a01",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/71c17257c71303e5a92faeebe0d760db22e88a01",
+        "html_url": "https://github.com/jquery/jquery/commit/71c17257c71303e5a92faeebe0d760db22e88a01"
+      }
+    ]
+  },
+  {
+    "sha": "71c17257c71303e5a92faeebe0d760db22e88a01",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-05T14:47:09Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-05T14:47:59Z"
+      },
+      "message": "Update AUTHORS.txt based on CLA responses.",
+      "tree": {
+        "sha": "06e19f2454b3f64ec5df5bc77ae233bfeed33264",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/06e19f2454b3f64ec5df5bc77ae233bfeed33264"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/71c17257c71303e5a92faeebe0d760db22e88a01",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/71c17257c71303e5a92faeebe0d760db22e88a01",
+    "html_url": "https://github.com/jquery/jquery/commit/71c17257c71303e5a92faeebe0d760db22e88a01",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/71c17257c71303e5a92faeebe0d760db22e88a01/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "60f546acb1c7136092b4fd01cccff052e468cc72",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/60f546acb1c7136092b4fd01cccff052e468cc72",
+        "html_url": "https://github.com/jquery/jquery/commit/60f546acb1c7136092b4fd01cccff052e468cc72"
+      }
+    ]
+  },
+  {
+    "sha": "60f546acb1c7136092b4fd01cccff052e468cc72",
+    "commit": {
+      "author": {
+        "name": "Rick Waldron",
+        "email": "waldron.rick@gmail.com",
+        "date": "2012-10-04T17:25:50Z"
+      },
+      "committer": {
+        "name": "Rick Waldron",
+        "email": "waldron.rick@gmail.com",
+        "date": "2012-10-04T17:25:50Z"
+      },
+      "message": "body default display is always block. @mikesherov was right and this is the proof. Fixes #10227",
+      "tree": {
+        "sha": "9477dad99e214ee057d7edcd3e6340cc4755b588",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/9477dad99e214ee057d7edcd3e6340cc4755b588"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/60f546acb1c7136092b4fd01cccff052e468cc72",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/60f546acb1c7136092b4fd01cccff052e468cc72",
+    "html_url": "https://github.com/jquery/jquery/commit/60f546acb1c7136092b4fd01cccff052e468cc72",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/60f546acb1c7136092b4fd01cccff052e468cc72/comments",
+    "author": {
+      "login": "rwaldron",
+      "id": 27985,
+      "avatar_url": "https://avatars.githubusercontent.com/u/27985",
+      "gravatar_id": "36c697d974542aadaee06a0f39cb1437",
+      "url": "https://api.github.com/users/rwaldron",
+      "html_url": "https://github.com/rwaldron",
+      "followers_url": "https://api.github.com/users/rwaldron/followers",
+      "following_url": "https://api.github.com/users/rwaldron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwaldron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwaldron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwaldron/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwaldron/orgs",
+      "repos_url": "https://api.github.com/users/rwaldron/repos",
+      "events_url": "https://api.github.com/users/rwaldron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwaldron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "rwaldron",
+      "id": 27985,
+      "avatar_url": "https://avatars.githubusercontent.com/u/27985",
+      "gravatar_id": "36c697d974542aadaee06a0f39cb1437",
+      "url": "https://api.github.com/users/rwaldron",
+      "html_url": "https://github.com/rwaldron",
+      "followers_url": "https://api.github.com/users/rwaldron/followers",
+      "following_url": "https://api.github.com/users/rwaldron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rwaldron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rwaldron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rwaldron/subscriptions",
+      "organizations_url": "https://api.github.com/users/rwaldron/orgs",
+      "repos_url": "https://api.github.com/users/rwaldron/repos",
+      "events_url": "https://api.github.com/users/rwaldron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rwaldron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "52a84225596393879806ad9e024c3351c8b46034",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/52a84225596393879806ad9e024c3351c8b46034",
+        "html_url": "https://github.com/jquery/jquery/commit/52a84225596393879806ad9e024c3351c8b46034"
+      }
+    ]
+  },
+  {
+    "sha": "52a84225596393879806ad9e024c3351c8b46034",
+    "commit": {
+      "author": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-04T13:49:20Z"
+      },
+      "committer": {
+        "name": "Timmy Willison",
+        "email": "timmywillisn@gmail.com",
+        "date": "2012-10-04T13:49:20Z"
+      },
+      "message": "Sizzle: throw an invalid selector exception for trailing-comma selectors. Fixes #12643.",
+      "tree": {
+        "sha": "3c6a002a28cddab8117311501c151af3889d74ca",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/3c6a002a28cddab8117311501c151af3889d74ca"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/52a84225596393879806ad9e024c3351c8b46034",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/52a84225596393879806ad9e024c3351c8b46034",
+    "html_url": "https://github.com/jquery/jquery/commit/52a84225596393879806ad9e024c3351c8b46034",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/52a84225596393879806ad9e024c3351c8b46034/comments",
+    "author": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "timmywil",
+      "id": 192451,
+      "avatar_url": "https://avatars.githubusercontent.com/u/192451",
+      "gravatar_id": "6b57220ae48e1ac5d02227bdada8a4d6",
+      "url": "https://api.github.com/users/timmywil",
+      "html_url": "https://github.com/timmywil",
+      "followers_url": "https://api.github.com/users/timmywil/followers",
+      "following_url": "https://api.github.com/users/timmywil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timmywil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timmywil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timmywil/subscriptions",
+      "organizations_url": "https://api.github.com/users/timmywil/orgs",
+      "repos_url": "https://api.github.com/users/timmywil/repos",
+      "events_url": "https://api.github.com/users/timmywil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timmywil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "425d17de832d281c2577f8d6653030cef95907b5",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/425d17de832d281c2577f8d6653030cef95907b5",
+        "html_url": "https://github.com/jquery/jquery/commit/425d17de832d281c2577f8d6653030cef95907b5"
+      }
+    ]
+  },
+  {
+    "sha": "425d17de832d281c2577f8d6653030cef95907b5",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2012-09-21T15:53:03Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-04T01:14:08Z"
+      },
+      "message": "Fix #12583: Don't ignore disabled property of select-one, close gh-932.",
+      "tree": {
+        "sha": "b648ebb4300e763d79d29d61e9744c65972d9eba",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/b648ebb4300e763d79d29d61e9744c65972d9eba"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/425d17de832d281c2577f8d6653030cef95907b5",
+      "comment_count": 1
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/425d17de832d281c2577f8d6653030cef95907b5",
+    "html_url": "https://github.com/jquery/jquery/commit/425d17de832d281c2577f8d6653030cef95907b5",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/425d17de832d281c2577f8d6653030cef95907b5/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+        "html_url": "https://github.com/jquery/jquery/commit/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3"
+      }
+    ]
+  },
+  {
+    "sha": "da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+    "commit": {
+      "author": {
+        "name": "Richard Gibson",
+        "email": "richard.gibson@gmail.com",
+        "date": "2012-10-03T12:26:01Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-04T01:07:50Z"
+      },
+      "message": "Fix #12637: restore 1.8.1 ajax crossDomain logic. Close gh-944.",
+      "tree": {
+        "sha": "c1c71c271421d4adbd52fd2035ac4e9f034a106d",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/c1c71c271421d4adbd52fd2035ac4e9f034a106d"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+    "html_url": "https://github.com/jquery/jquery/commit/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/da3ff3afe4d8421ae4ad04d6653f04ed6d7768e3/comments",
+    "author": {
+      "login": "gibson042",
+      "id": 1199584,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1199584",
+      "gravatar_id": "f16d4602c1c90646438a0b534ff61889",
+      "url": "https://api.github.com/users/gibson042",
+      "html_url": "https://github.com/gibson042",
+      "followers_url": "https://api.github.com/users/gibson042/followers",
+      "following_url": "https://api.github.com/users/gibson042/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gibson042/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gibson042/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gibson042/subscriptions",
+      "organizations_url": "https://api.github.com/users/gibson042/orgs",
+      "repos_url": "https://api.github.com/users/gibson042/repos",
+      "events_url": "https://api.github.com/users/gibson042/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gibson042/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+        "html_url": "https://github.com/jquery/jquery/commit/ebf4d43011b7a6add9ded38b4322163f8b030cb6"
+      }
+    ]
+  },
+  {
+    "sha": "ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-01T02:23:02Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-01T02:23:02Z"
+      },
+      "message": "Revert \"Chrome fails in ajax.js tests because TestSwarm/Ngnix won't give HEAD requests any respect. Skip them rather than hear Swarmy call FAILURE on each run.\"\n\nThis reverts commit 9c5089a60d479a959b290a5b4ab8ef38c985e963.\n\nThese were not the droids we were looking for. Actually caused by a BrowserStack issue.",
+      "tree": {
+        "sha": "156253c291a8f695791957818323baccfd1a1dec",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/156253c291a8f695791957818323baccfd1a1dec"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+      "comment_count": 2
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+    "html_url": "https://github.com/jquery/jquery/commit/ebf4d43011b7a6add9ded38b4322163f8b030cb6",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/ebf4d43011b7a6add9ded38b4322163f8b030cb6/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+        "html_url": "https://github.com/jquery/jquery/commit/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc"
+      }
+    ]
+  },
+  {
+    "sha": "631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+    "commit": {
+      "author": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-01T02:19:31Z"
+      },
+      "committer": {
+        "name": "Dave Methvin",
+        "email": "dave.methvin@gmail.com",
+        "date": "2012-10-01T02:19:31Z"
+      },
+      "message": "Since .getAttribute() returns strings, we should check for them.",
+      "tree": {
+        "sha": "cb9c199735bea2ea1f3e8e8c5402c4ef892b73b1",
+        "url": "https://api.github.com/repos/jquery/jquery/git/trees/cb9c199735bea2ea1f3e8e8c5402c4ef892b73b1"
+      },
+      "url": "https://api.github.com/repos/jquery/jquery/git/commits/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/jquery/jquery/commits/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+    "html_url": "https://github.com/jquery/jquery/commit/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc",
+    "comments_url": "https://api.github.com/repos/jquery/jquery/commits/631fbc769c952381fc3f42ffd77f7b5e4e6a21cc/comments",
+    "author": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "dmethvin",
+      "id": 157858,
+      "avatar_url": "https://avatars.githubusercontent.com/u/157858",
+      "gravatar_id": "161a4cc619398bea1e1714036ed122cf",
+      "url": "https://api.github.com/users/dmethvin",
+      "html_url": "https://github.com/dmethvin",
+      "followers_url": "https://api.github.com/users/dmethvin/followers",
+      "following_url": "https://api.github.com/users/dmethvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmethvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmethvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmethvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmethvin/orgs",
+      "repos_url": "https://api.github.com/users/dmethvin/repos",
+      "events_url": "https://api.github.com/users/dmethvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmethvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "9ced0274653b8b17ceb6b0675e2ae05433dcf202",
+        "url": "https://api.github.com/repos/jquery/jquery/commits/9ced0274653b8b17ceb6b0675e2ae05433dcf202",
+        "html_url": "https://github.com/jquery/jquery/commit/9ced0274653b8b17ceb6b0675e2ae05433dcf202"
+      }
+    ]
+  }
+]
